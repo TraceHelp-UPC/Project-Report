@@ -8,9 +8,10 @@ A continuación, se presenta el marco analítico comparativo (*Competitive Analy
 
 #### Competitive Analysis Landscape
 
-| Dimensión | Variable Evaluada | TraceHelp (Silph Technologies) | Freshservice (Freshworks) | Moveworks | Zendesk for IT Helpdesk |
+| Dimensión | Variable Evaluada | TraceHelp (Silph Technologies) | Freshservice (Freshworks)<br><br><img src="assets/images/competitor_freshservice_logo.png" alt="Logo de Freshservice" width="60"/> | Moveworks<br><br><img src="assets/images/competitor_moveworks_logo.png" alt="Logo de Moveworks" width="60"/> | Zendesk for IT Helpdesk<br><br><img src="assets/images/competitor_zendesk_logo.png" alt="Logo de Zendesk" width="60"/> |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Propósito del Análisis** | **¿Por qué llevar a cabo este análisis?** | Identificar las brechas en las ofertas globales de Helpdesk impulsado por IA para validar nuestro diferencial: ofrecer una solución enfocada estrictamente en la precisión sin alucinaciones (mediante arquitectura RAG) a un costo accesible para el mercado latinoamericano gracias a nuestra infraestructura Low-Code. | Identificar las brechas en las ofertas globales de Helpdesk impulsado por IA para validar nuestro diferencial: ofrecer una solución enfocada estrictamente en la precisión sin alucinaciones (mediante arquitectura RAG) a un costo accesible para el mercado latinoamericano gracias a nuestra infraestructura Low-Code. | Identificar las brechas en las ofertas globales de Helpdesk impulsado por IA para validar nuestro diferencial: ofrecer una solución enfocada estrictamente en la precisión sin alucinaciones (mediante arquitectura RAG) a un costo accesible para el mercado latinoamericano gracias a nuestra infraestructura Low-Code. | Identificar las brechas en las ofertas globales de Helpdesk impulsado por IA para validar nuestro diferencial: ofrecer una solución enfocada estrictamente en la precisión sin alucinaciones (mediante arquitectura RAG) a un costo accesible para el mercado latinoamericano gracias a nuestra infraestructura Low-Code. |
+| **Identidad Visual** | **Logotipo Oficial** | **TraceHelp** | <img src="assets/images/competitor_freshservice_logo.png" alt="Logo Freshservice" width="65"/> | <img src="assets/images/competitor_moveworks_logo.png" alt="Logo Moveworks" width="65"/> | <img src="assets/images/competitor_zendesk_logo.png" alt="Logo Zendesk" width="65"/> |
 | **Perfil** | **Overview** | Asistente inteligente de triaje y soporte de primer nivel de TI desarrollado por Silph Technologies (startup tecnológica fundada por estudiantes de la UPC). Utiliza arquitectura RAG e IA multimodal en un entorno Low-Code para analizar consultas de texto y capturas de pantalla de errores corporativos. | Solución ITSM (Gestión de Servicios de TI) en la nube de Freshworks. Es uno de los sistemas de Helpdesk técnica más populares del mundo, que recientemente introdujo "Freddy AI Copilot". | Plataforma Enterprise de IA conversacional líder en la automatización del Helpdesk. Está diseñada específicamente para integrarse detrás de escena con los sistemas existentes (como ServiceNow o Workday) para resolver requerimientos de TI. | Originalmente el gigante mundial de atención al cliente (Customer Support), que ha adaptado fuertemente su plataforma para uso interno de TI bajo el nombre Zendesk for IT Helpdesk, apalancado ahora por la suite Zendesk Advanced AI. |
 | **Perfil** | **Ventaja competitiva ¿Qué valor ofrece a los clientes?** | Respuestas precisas, auditables y libres de alucinaciones basadas exclusivamente en los manuales internos de la empresa. Su backend multimodal diagnostica errores directamente desde imágenes, mientras que su arquitectura Low-Code permite una rápida implementación a costos accesibles, reduciendo el burnout del equipo técnico. | Ofrece una plataforma "todo en uno" madura que cubre toda la gestión de activos, incidentes, cambios y aprobaciones corporativas (alineada a marcos ITIL), donde la IA complementa un flujo de trabajo que los analistas ya dominan. | Autonomía extrema. No es solo una herramienta de "sugerencia", sino que ejecuta acciones complejas por sí misma (desbloquear cuentas, dar permisos de software) utilizando NLP muy avanzado directamente desde el chat del empleado. | Una experiencia de usuario destacada (UX) tanto para el empleado como para el técnico, destacando en el análisis de sentimiento omnicanal y triaje automatizado basado en el comportamiento histórico. |
 | **Perfil de Marketing** | **Mercado objetivo** | CTOs, gerentes de TI y jefes de soporte de medianas y grandes empresas en Perú y Latinoamérica cuyo Helpdesk esté colapsada por solicitudes y descripciones ambiguas de Nivel 1. | Desde pymes hasta grandes empresas globales. En LatAm es muy popular entre medianas empresas por su facilidad de uso inicial. | Exclusivamente mercado corporativo Enterprise y "Fortune 500" (empresas de más de 1,000 a 5,000 empleados). | Muy amplio: Startups tecnológicas, scale-ups, y empresas corporativas que priorizan la agilidad y experiencia del usuario por encima de los rígidos marcos ITIL tradicionales. |
@@ -109,7 +110,9 @@ Afronta la debilidad de ser una marca emergente y la amenaza del escepticismo co
 * **Ocupación:** Jefe de la Oficina de Tecnologías de la Información (OTI) en SENASA
 
 <p align="center">
-  <img src="assets/images/interview_evidence_1.png" alt="Evidencia de entrevista 1 - Luis Casaboza" width="600"/>
+  <img src="assets/images/interview_evidence_luis_casaboza.png" alt="Registro y evidencia de entrevista a profundidad con Luis Casaboza - Jefe OTI en SENASA" width="600"/>
+  <br>
+  <em>Evidencia fotográfica: Registro de entrevista a profundidad con Luis Casaboza (Jefe de la Oficina de Tecnologías de la Información - SENASA).</em>
 </p>
 
 * **Acerca de la entrevista:**
@@ -126,7 +129,9 @@ Afronta la debilidad de ser una marca emergente y la amenaza del escepticismo co
 * **Ocupación:** Jefe de Informática (Área TIC) en ELECTROPERU S.A.
 
 <p align="center">
-  <img src="assets/images/interview_evidence_2.png" alt="Evidencia de entrevista 2 - Valeria Portugal" width="600"/>
+  <img src="assets/images/interview_evidence_valeria_portugal.png" alt="Registro y evidencia de entrevista a profundidad con Valeria Portugal - Jefe de Informática en ELECTROPERU S.A." width="600"/>
+  <br>
+  <em>Evidencia fotográfica: Registro de entrevista a profundidad con Valeria Portugal (Jefe de Informática - ELECTROPERU S.A.).</em>
 </p>
 
 * **Acerca de la entrevista:**
@@ -143,7 +148,9 @@ Afronta la debilidad de ser una marca emergente y la amenaza del escepticismo co
 * **Ocupación:** Jefe de Operaciones y Soporte Técnico TI (Empresa de Facturación Electrónica)
 
 <p align="center">
-  <img src="assets/images/interview_evidence_3.png" alt="Evidencia de entrevista 3 - Alfonso Diaz" width="600"/>
+  <img src="assets/images/interview_evidence_alfonso_diaz.png" alt="Registro y evidencia de entrevista a profundidad con Alfonso Diaz - Jefe de Operaciones y Soporte Técnico TI" width="600"/>
+  <br>
+  <em>Evidencia fotográfica: Registro de entrevista a profundidad con Alfonso Diaz (Jefe de Operaciones y Soporte Técnico TI).</em>
 </p>
 
 * **Acerca de la entrevista:**
@@ -164,7 +171,9 @@ Afronta la debilidad de ser una marca emergente y la amenaza del escepticismo co
 * **Ocupación:** Especialista de Infraestructura y Soporte (L2)
 
 <p align="center">
-  <img src="assets/images/interview_evidence_4.png" alt="Evidencia de entrevista 4 - Carlos Reategui" width="600"/>
+  <img src="assets/images/interview_evidence_carlos_reategui.png" alt="Registro y evidencia de entrevista a profundidad con Carlos Reategui - Especialista de Infraestructura y Soporte L2" width="600"/>
+  <br>
+  <em>Evidencia fotográfica: Registro de entrevista a profundidad con Carlos Reategui (Especialista de Infraestructura y Soporte L2).</em>
 </p>
 
 * **Acerca de la entrevista:**
@@ -181,7 +190,9 @@ Afronta la debilidad de ser una marca emergente y la amenaza del escepticismo co
 * **Ocupación:** Analista de Soporte (L1)
 
 <p align="center">
-  <img src="assets/images/interview_evidence_5.png" alt="Evidencia de entrevista 5 - Piero Ramirez" width="600"/>
+  <img src="assets/images/interview_evidence_piero_ramirez.png" alt="Registro y evidencia de entrevista a profundidad con Piero Ramirez - Analista de Soporte TI L1" width="600"/>
+  <br>
+  <em>Evidencia fotográfica: Registro de entrevista a profundidad con Piero Ramirez (Analista de Soporte TI L1).</em>
 </p>
 
 * **Acerca de la entrevista:**
@@ -198,7 +209,9 @@ Afronta la debilidad de ser una marca emergente y la amenaza del escepticismo co
 * **Ocupación:** Analista de Soporte (L1)
 
 <p align="center">
-  <img src="assets/images/interview_evidence_6.png" alt="Evidencia de entrevista 6 - Carlos Medina" width="600"/>
+  <img src="assets/images/interview_evidence_carlos_medina.png" alt="Registro y evidencia de entrevista a profundidad con Carlos Medina - Analista de Soporte TI L1" width="600"/>
+  <br>
+  <em>Evidencia fotográfica: Registro de entrevista a profundidad con Carlos Medina (Analista de Soporte TI L1).</em>
 </p>
 
 * **Acerca de la entrevista:**
@@ -236,19 +249,19 @@ Desde la dimensión subjetiva, este segmento lidia con una carga emocional negat
 Esta sección presenta la ficha arquetípica de **Roberto Pérez**, quien sintetiza el perfil del líder tecnológico corporativo enfocado en la gobernanza, cumplimiento de SLAs y optimización de costos en el helpdesk.
 
 <p align="center">
-  <img src="assets/images/user_persona_roberto.png" alt="User Persona 1 - Roberto Pérez" width="800"/>
+  <img src="assets/images/user_persona_roberto.png" alt="Ficha de User Persona de Roberto Pérez - Líder Estratégico de TI (CTO y Gerente de Sistemas)" width="800"/>
 </p>
 
-*Figura 2.* User Persona de Roberto Pérez (Líder Estratégico de TI) elaborado en UXPressia.
+*Figura 2.* Ficha arquetípica de User Persona para Roberto Pérez (Líder Estratégico de TI), elaborada en UXPressia detallando demografía, metas de gobernanza, puntos de dolor y tecnologías.
 
 #### Segmento Objetivo #2: Analistas y Especialistas de Soporte de TI (Operadores de Helpdesk Nivel 1 y 2)
 Esta sección presenta la ficha arquetípica de **Karim Ramírez**, operador de soporte técnico de primera línea que experimenta la sobrecarga operativa, el tecnoestrés y la necesidad de herramientas de triaje inteligente asistidas por IA multimodal.
 
 <p align="center">
-  <img src="assets/images/user_persona_karim.png" alt="User Persona 2 - Karim Ramírez" width="800"/>
+  <img src="assets/images/user_persona_karim.png" alt="Ficha de User Persona de Karim Ramírez - Analista y Especialista de Soporte TI L1/L2" width="800"/>
 </p>
 
-*Figura 3.* User Persona de Karim Ramírez (Analista de Soporte TI L1/L2) elaborado en UXPressia.
+*Figura 3.* Ficha arquetípica de User Persona para Karim Ramírez (Analista de Soporte Helpdesk L1/L2), elaborada en UXPressia detallando demografía, sobrecarga operativa, tecnoestrés y herramientas de soporte.
 
 ---
 
@@ -278,18 +291,18 @@ En esta sección, el equipo resume el proceso de empatización y presenta los Em
 Esta sección presenta el Empathy Map elaborado para **Roberto Pérez**, nuestra User Persona representativa de los Líderes Estratégicos de TI (CTOs, Gerentes y Jefes de Sistemas). El mapa sintetiza las presiones de gobernanza, presupuesto y ciberseguridad a las que se enfrenta al gestionar el soporte técnico corporativo.
 
 <p align="center">
-  <img src="assets/images/empathy_map_roberto.png" alt="Empathy Map - Roberto Pérez" width="850"/>
+  <img src="assets/images/empathy_map_roberto.png" alt="Mapa de Empatía (Empathy Map) de Roberto Pérez - Líder Estratégico de TI" width="850"/>
 </p>
 
-*Figura 4.* Empathy Map de Roberto Pérez elaborado en UXPressia.
+*Figura 4.* Mapa de Empatía (Empathy Map) de Roberto Pérez elaborado en UXPressia, sintetizando lo que piensa, siente, ve, oye, dice y hace respecto al rendimiento del Helpdesk corporativo.
 
 Esta sección presenta el Empathy Map elaborado para **Karim Ramírez**, nuestro User Persona que representa a los Analistas de Soporte de Nivel 1 y 2. El mapa refleja la sobrecarga cognitiva, el tecnoestrés y la frustración que experimenta en la atención diaria de tickets no estructurados.
 
 <p align="center">
-  <img src="assets/images/empathy_map_karim.png" alt="Empathy Map - Karim Ramírez" width="850"/>
+  <img src="assets/images/empathy_map_karim.png" alt="Mapa de Empatía (Empathy Map) de Karim Ramírez - Analista de Soporte TI L1/L2" width="850"/>
 </p>
 
-*Figura 5.* Empathy Map de Karim Ramírez elaborado en UXPressia.
+*Figura 5.* Mapa de Empatía (Empathy Map) de Karim Ramírez elaborado en UXPressia, sintetizando su experiencia emocional frente a incidentes ambiguos, esfuerzo de diagnóstico y presión por SLAs.
 
 ---
 
@@ -299,19 +312,19 @@ Esta sección presenta el Empathy Map elaborado para **Karim Ramírez**, nuestro
 El siguiente escenario As-Is fue desarrollado a partir de entrevistas y análisis del comportamiento del perfil de Roberto Pérez. Se identificaron las principales fases que conforman su rutina de supervisión estratégica, monitoreo de métricas operativas y gestión presupuestal del área de TI sin contar con TraceHelp.
 
 <p align="center">
-  <img src="assets/images/as_is_scenario_mapping_roberto.png" alt="As-Is Scenario Mapping - Roberto Pérez" width="950"/>
+  <img src="assets/images/as_is_scenario_mapping_roberto.png" alt="Mapa de Escenario As-Is de Roberto Pérez - Monitoreo y Gobernanza de Soporte TI" width="950"/>
 </p>
 
-*Figura 6.* As-Is Scenario Mapping para Roberto Pérez (Líder Estratégico de TI).
+*Figura 6.* As-Is Scenario Mapping para Roberto Pérez (Líder Estratégico de TI), ilustrando las fases actuales de supervisión, detección de cuellos de botella, estrés operativo y justificación de costos sin TraceHelp.
 
 #### Segmento 2: Analistas y Especialistas de Soporte de TI (Karim Ramírez)
 El siguiente escenario As-Is fue desarrollado a partir de entrevistas y análisis del comportamiento del perfil de Karim Ramírez. Se identificaron las principales fases que conforman su flujo de trabajo diario actual como analista de soporte técnico, evidenciando las tareas manuales, la falta de información contextual y el tecnoestrés derivado de la atención de tickets repetitivos sin TraceHelp.
 
 <p align="center">
-  <img src="assets/images/as_is_scenario_mapping_karim.png" alt="As-Is Scenario Mapping - Karim Ramírez" width="950"/>
+  <img src="assets/images/as_is_scenario_mapping_karim.png" alt="Mapa de Escenario As-Is de Karim Ramírez - Recepción, Diagnóstico y Resolución de Tickets" width="950"/>
 </p>
 
-*Figura 7.* As-Is Scenario Mapping para Karim Ramírez (Analista de Soporte TI L1).
+*Figura 7.* As-Is Scenario Mapping para Karim Ramírez (Analista de Soporte TI L1), ilustrando las fases operativas de recepción de tickets, interpretación manual de errores en imágenes, tecnoestrés y resolución sin TraceHelp.
 
 ---
 
