@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="UPC Logo" width="160"/>
-</p>
+![UPC Logo](assets/images/upc_logo.png)
 
 # Universidad Peruana de Ciencias Aplicadas
 ## Facultad de Ingeniería

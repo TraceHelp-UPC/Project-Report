@@ -19,10 +19,10 @@ Nuestra iniciativa está fuertemente comprometida con el desarrollo sostenible, 
 
 | Foto | Integrante | Código | Perfil Profesional |
 | :---: | :--- | :---: | :--- |
-| <img src="assets/images/profile_cassius_martel.png" width="95" alt="Cassius Martel"/> | **Cassius Estefano Martel Andrade** | u202312287 | Mi nombre es Cassius Martel y soy estudiante de séptimo ciclo de la carrera de Ingeniería de Software. Me caracterizo por ser un líder nato que siempre busca sacar lo mejor de cada uno de sus compañeros de equipo, así como por ser sumamente responsable y atento con los requerimientos de cada proyecto en el que me involucro. Tengo conocimientos técnicos en lenguajes como Python, Java, C++, así como en diversos frameworks de desarrollo Frontend, bases de datos y metodologías ágiles. |
-| <img src="assets/images/profile_gabriel_borja.jpg" width="95" alt="Gabriel Borja"/> | **Gabriel Sebastián Borja Molina** | u202310308 | Estudiante de la carrera de Ingeniería de Software de la UPC. Posee un perfil enfocado en el análisis y modelado de dominio (DDD), especificación de requerimientos de software y diseño de arquitecturas orientadas a eventos, destacando por su capacidad de comunicación técnica y colaboración en equipos de desarrollo ágil. |
-| <img src="assets/images/profile_marcelo_binda.png" width="95" alt="Marcelo Binda"/> | **Marcelo Alejandro Binda Arbañil** | u202311157 | Estudiante de la carrera de Ingeniería de Software de la UPC. Se especializa en el diseño de arquitecturas guiadas por atributos (ADD), evaluación de tácticas arquitectónicas y análisis de compensaciones técnicas (*trade-offs*), con sólidos conocimientos en ingeniería de software y desarrollo de sistemas empresariales. |
-| <img src="assets/images/profile_ario_chavez.jpg" width="95" alt="Ario Chavez"/> | **Ario Joel Chavez Uribe** | u202213468 | Estudiante de la carrera de Ingeniería de Software de la UPC. Cuenta con experiencia en elicitación de requerimientos, diseño de experiencia de usuario (UX/UI), entrevistas con usuarios y desarrollo de soluciones tecnológicas innovadoras, asegurando el alineamiento entre las necesidades del usuario y la propuesta de valor del software. |
+| ![Cassius Martel](assets/images/profile_cassius_martel.png) | **Cassius Estefano Martel Andrade** | u202312287 | Mi nombre es Cassius Martel y soy estudiante de séptimo ciclo de la carrera de Ingeniería de Software. Me caracterizo por ser un líder nato que siempre busca sacar lo mejor de cada uno de sus compañeros de equipo, así como por ser sumamente responsable y atento con los requerimientos de cada proyecto en el que me involucro. Tengo conocimientos técnicos en lenguajes como Python, Java, C++, así como en diversos frameworks de desarrollo Frontend, bases de datos y metodologías ágiles. |
+| ![Gabriel Borja](assets/images/profile_gabriel_borja.jpg) | **Gabriel Sebastián Borja Molina** | u202310308 | Estudiante de la carrera de Ingeniería de Software de la UPC. Posee un perfil enfocado en el análisis y modelado de dominio (DDD), especificación de requerimientos de software y diseño de arquitecturas orientadas a eventos, destacando por su capacidad de comunicación técnica y colaboración en equipos de desarrollo ágil. |
+| ![Marcelo Binda](assets/images/profile_marcelo_binda.png) | **Marcelo Alejandro Binda Arbañil** | u202311157 | Estudiante de la carrera de Ingeniería de Software de la UPC. Se especializa en el diseño de arquitecturas guiadas por atributos (ADD), evaluación de tácticas arquitectónicas y análisis de compensaciones técnicas (*trade-offs*), con sólidos conocimientos en ingeniería de software y desarrollo de sistemas empresariales. |
+| ![Ario Chavez](assets/images/profile_ario_chavez.jpg) | **Ario Joel Chavez Uribe** | u202213468 | Estudiante de la carrera de Ingeniería de Software de la UPC. Cuenta con experiencia en elicitación de requerimientos, diseño de experiencia de usuario (UX/UI), entrevistas con usuarios y desarrollo de soluciones tecnológicas innovadoras, asegurando el alineamiento entre las necesidades del usuario y la propuesta de valor del software. |
 
 ---
 
@@ -183,9 +183,7 @@ La oportunidad para Silph Technologies radica en ofrecer **TraceHelp** como un c
 
 #### Lean UX Canvas
 
-<p align="center">
-  <img src="assets/images/lean_ux_canvas.png" alt="Lean UX Canvas de TraceHelp" width="850"/>
-</p>
+![Lean UX Canvas de TraceHelp](assets/images/lean_ux_canvas.png)
 
 *Figura 1.* Lean UX Canvas de TraceHelp desarrollado por Silph Technologies. Referencia en línea: [Google Docs - Lean UX Canvas](https://docs.google.com/document/d/1AehXzps9-Qiyk5w-4XLalrF8TTc83NRz/edit?usp=sharing).
 
