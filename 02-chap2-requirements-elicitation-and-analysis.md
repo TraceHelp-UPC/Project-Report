@@ -63,3 +63,166 @@ Afronta la debilidad de ser una marca emergente y la amenaza del escepticismo co
   * **Programa de adoptantes tempranos (Early Adopters) para Empresas Medianas:** Ofrecer a las primeras 5 empresas clientes un precio preferencial congelado durante el primer año a cambio de convertirlas en Casos de Éxito documentados (midiendo reducción de tiempos de atención MTTR y ahorro en horas/hombre).
   * **Respaldo de Arquitectura y Cumplimiento:** Crear un Whitepaper técnico que explique la arquitectura RAG utilizada, destacando la privacidad de los datos (la documentación de la empresa no se utiliza para entrenar modelos públicos) y el cumplimiento de leyes de protección de datos personales.
   * **Alineación con Metas de Sostenibilidad (ESG/ODS):** Incluir en la propuesta comercial reportes que muestren cómo la herramienta reduce la sobrecarga laboral y el burnout de los técnicos (ODS 8), convirtiendo la compra en una iniciativa alineada a las metas corporativas de sostenibilidad de la empresa.
+
+---
+
+## 2.2. Entrevistas
+
+### 2.2.1. Diseño de entrevistas
+
+#### Preguntas Generales (Aplicables a todos los involucrados en el soporte de TI):
+1. ¿En qué tipo de organización trabaja y a qué área pertenece?
+2. ¿Cómo describiría el flujo actual de resolución de problemas técnicos o incidentes de TI dentro de su organización?
+3. ¿Cuáles son las herramientas tecnológicas (software de ITSM, canales de comunicación) que utiliza habitualmente para reportar, gestionar o resolver tickets?
+4. ¿Qué impacto tiene el alto volumen de solicitudes técnicas diarias en su productividad general o en la de su equipo?
+
+#### Segmento Objetivo #1: Líderes Estratégicos de TI (CTOs, Gerentes y Jefes de Sistemas)
+1. Para comenzar, ¿podría describir brevemente su rol estratégico y cuáles son los principales indicadores clave (KPIs) que evalúa en su mesa de ayuda, como el tiempo medio de resolución (MTTR) o el cumplimiento de SLA?
+2. ¿Cuáles son los mayores desafíos que enfrenta actualmente su departamento para gestionar el alto volumen de tickets repetitivos en el soporte de primer nivel?
+3. ¿Qué impacto económico y operativo tiene para su organización que el equipo técnico dedique gran parte de su tiempo a solicitudes de baja complejidad, como el restablecimiento de contraseñas?
+4. Considerando el auge de la inteligencia artificial, ¿qué iniciativas ha evaluado su empresa para integrar IA generativa o automatización en los procesos de Helpdesk?
+5. Cuando evalúa nuevas tecnologías, como los asistentes de IA, ¿qué nivel de preocupación le genera la privacidad de los datos internos y el riesgo de respuestas inventadas?
+6. ¿Qué requisitos de gobernanza, seguridad o auditoría exigiría a una plataforma externa antes de permitirle acceder a los manuales internos de su empresa?
+7. ¿Cómo evalúa el retorno de inversión al adquirir nuevas licencias de software ITSM frente a los esquemas tradicionales que cobran por agente adicional o penalizan por cada ticket resuelto automáticamente?
+8. Si se le presentara una solución basada en arquitectura RAG que garantice respuestas fundamentadas exclusivamente en su propia documentación corporativa, ¿qué métricas usaría para validar su éxito en un periodo de prueba?
+
+#### Segmento Objetivo #2: Analistas y Especialistas de Soporte de TI (Operadores de Helpdesk Nivel 1 y 2)
+1. ¿Podría describir cómo es un día típico en su labor como analista/especialista de soporte y qué porcentaje de su jornada dedica a resolver tareas manuales o repetitivas de Nivel 1?
+2. De todos los incidentes que recibe a diario, ¿cuál es el tipo de ticket que le genera mayor carga operativa o frustración debido a descripciones ambiguas por parte del usuario final?
+3. Cuando un colaborador le reporta un problema, ¿con qué frecuencia envían capturas de pantalla del error en lugar de texto, y cómo afecta esto su tiempo para diagnosticar el incidente?
+4. ¿De qué manera la alta demanda y la acumulación de tickets en su cola de trabajo (backlog) impactan en su nivel de estrés o sobrecarga laboral?
+5. ¿Cuánto tiempo le toma en promedio buscar en la documentación interna, bases de conocimiento o manuales para encontrar la solución a un incidente poco común?
+6. ¿Qué funcionalidades valoraría más en un copiloto inteligente que le asista directamente durante el proceso de triaje, clasificación y priorización de incidentes?
+7. Si contara con una herramienta de IA multimodal que le sugiera diagnósticos y respuestas basados en los manuales de la empresa a partir de una captura de pantalla, ¿qué nivel de supervisión manual preferiría mantener antes de ejecutar acciones relevantes?
+8. En su experiencia interactuando con plataformas de gestión de tickets, ¿qué características de diseño hacen que una interfaz le resulte intuitiva y fácil de utilizar durante situaciones de alta demanda de trabajo?
+
+---
+
+### 2.2.2. Registro de entrevistas
+
+#### Segmento Objetivo #1: Líderes Estratégicos de TI (CTOs, Gerentes y Jefes de Sistemas)
+
+##### Entrevistado N.º 1: Luis Casaboza
+* **Edad:** 50
+* **Departamento/Distrito:** Lima (La Molina)
+* **Estado civil:** Casado
+* **Ocupación:** Jefe de la Oficina de Tecnologías de la Información (OTI) en SENASA
+
+<p align="center">
+  <img src="assets/images/interview_evidence_1.png" alt="Evidencia de entrevista 1 - Luis Casaboza" width="600"/>
+</p>
+
+* **Acerca de la entrevista:**
+  * **Link:** TraceHelp 202620 - Entrevistas.mp4
+  * **Instante en el que inicia:** 0:00
+  * **Duración:** 6:18
+* **Síntesis del perfil:**  
+  Luis lidera la mesa de ayuda a nivel nacional en el sector público. Desde una perspectiva objetiva, su principal desafío operativo es la dispersión geográfica de las sedes y la gran disparidad en las habilidades digitales de los usuarios, lo que satura su departamento con pedidos básicos (Nivel 1) y retrasa proyectos de infraestructura. A nivel tecnológico, su ecosistema de interacción se basa en un entorno de escritorio (navegadores web corporativos) utilizando GLPI, Jira, Microsoft Teams y AnyDesk. En cuanto a su personalidad, Luis presenta un perfil fuertemente estructurado, burocrático y adverso al riesgo, altamente influenciado por las normativas de seguridad digital del Estado (PCM y Ley de Protección de Datos). Subjetivamente, muestra un nivel de preocupación "muy alto" frente a la Inteligencia Artificial, temiendo que una fuga de datos o una respuesta inventada frene trámites legales o exportaciones agrícolas. Exige garantías de cifrado extremo a extremo, integración con Active Directory y el compromiso de no entrenar modelos públicos. Este hallazgo es fundamental para el arquetipo del líder estratégico gubernamental, ya que demuestra que prioriza la seguridad y exige modelos de licenciamiento de costos fijos anuales predecibles, rechazando categóricamente los esquemas que cobran por ticket resuelto debido a las restricciones presupuestales del sector público.
+
+##### Entrevistado N.º 2: Valeria Portugal
+* **Edad:** 52
+* **Departamento/Distrito:** Lima (San Borja)
+* **Estado civil:** Casada
+* **Ocupación:** Jefe de Informática (Área TIC) en ELECTROPERU S.A.
+
+<p align="center">
+  <img src="assets/images/interview_evidence_2.png" alt="Evidencia de entrevista 2 - Valeria Portugal" width="600"/>
+</p>
+
+* **Acerca de la entrevista:**
+  * **Link:** TraceHelp 202620 - Entrevistas.mp4
+  * **Instante en el que inicia:** 6:18
+  * **Duración:** 8:54
+* **Síntesis del perfil:**  
+  Valeria gestiona la infraestructura tecnológica de una empresa estatal crítica de generación de energía. Su enfoque es netamente analítico y orientado al valor del negocio, evaluando el éxito del Helpdesk mediante el monitoreo estricto de KPIs como el MTTR, SLA, satisfacción del usuario y resolución en el primer contacto. Objetivamente, identifica que destinar personal altamente calificado a resolver consultas recurrentes (contraseñas, accesos) representa un uso poco eficiente de los recursos económicos y frena iniciativas de ciberseguridad. Tecnológicamente, es una usuaria avanzada de plataformas corporativas de ITSM y Teams, operando principalmente desde laptops corporativas. Desde el punto de vista subjetivo y de personalidad, Valeria es una líder corporativa cautelosa, pero con clara visión de innovación (ya ha evaluado chatbots y analítica predictiva). Su mayor temor es comprometer la continuidad del negocio por decisiones equivocadas derivadas de "alucinaciones" de la IA. Por ello, exige que cualquier proveedor cumpla con estándares internacionales (ISO 27001, ISO 27017, ISO 27701) y garantice trazabilidad completa. Este perfil consolida la necesidad de posicionar a TraceHelp como una solución transparente, donde el modelo de negocio favorezca la automatización a largo plazo (ROI a 3-5 años) sin penalizar el crecimiento de la demanda.
+
+##### Entrevistado N.º 3: Alfonso Diaz
+* **Edad:** 38
+* **Departamento/Distrito:** Lima (Miraflores)
+* **Estado civil:** Soltero
+* **Ocupación:** Jefe de Operaciones y Soporte Técnico TI (Empresa de Facturación Electrónica)
+
+<p align="center">
+  <img src="assets/images/interview_evidence_3.png" alt="Evidencia de entrevista 3 - Alfonso Diaz" width="600"/>
+</p>
+
+* **Acerca de la entrevista:**
+  * **Link:** TraceHelp 202620 - Entrevistas.mp4
+  * **Instante en el que inicia:** 15:12
+  * **Duración:** 9:28
+* **Síntesis del perfil:**  
+  Alfonso trabaja en un entorno tecnológico de alto dinamismo, especializado en soluciones tributarias. Objetivamente, su ecosistema de atención es más ágil y omnicanal: el canal principal de entrada es WhatsApp Business (integrado con un bot básico), mientras que la gestión interna se apoya en un Helpdesk web y tableros de Trello, interactuando constantemente tanto desde dispositivos móviles (smartphones) como desde navegadores web (Chrome/Edge). Subjetivamente, Alfonso experimenta altos niveles de estrés durante los "días de cierre" (fin de mes), cuando el volumen de consultas repetitivas hace colapsar la bandeja, obligándolo a él mismo a contestar mensajes básicos. Su personalidad es pragmática y directa, buscando soluciones que alivien el esfuerzo mecánico. Tiene una profunda desconfianza hacia la IA genérica, sabiendo que un procedimiento fiscal equivocado generaría multas de SUNAT para sus clientes. Exige Acuerdos de Confidencialidad (NDA) estrictos y un historial auditable de las fuentes consultadas. Este perfil define una característica vital para el arquetipo: la herramienta solo será adoptada si la arquitectura RAG garantiza un 100% de exactitud en lectura de manuales e imágenes de error, prefiriendo tarifas fijas mensuales en lugar de esquemas que castiguen el crecimiento operativo.
+
+---
+
+#### Segmento Objetivo #2: Analistas y Especialistas de Soporte de TI (Operadores de Helpdesk Nivel 1 y 2)
+
+##### Entrevistado N.º 1: Carlos Reategui
+* **Edad:** 27
+* **Departamento/Distrito:** Lima (Lince)
+* **Estado civil:** Soltero
+* **Ocupación:** Especialista de Infraestructura y Soporte (L2)
+
+<p align="center">
+  <img src="assets/images/interview_evidence_4.png" alt="Evidencia de entrevista 4 - Carlos Reategui" width="600"/>
+</p>
+
+* **Acerca de la entrevista:**
+  * **Link:** TraceHelp 202620 - Entrevistas.mp4
+  * **Instante en el que inicia:** 24:40
+  * **Duración:** 6:40
+* **Síntesis del perfil:**  
+  Carlos es un especialista técnico de una empresa grande que recibe los casos escalados desde la primera línea de atención. Objetivamente, utiliza plataformas de tickets, Teams y herramientas de monitoreo, trabajando habitualmente en configuraciones de múltiples pantallas (monitores extendidos) debido a la cantidad de consolas que debe revisar. Un hallazgo crítico en su flujo de trabajo es que pierde entre 20 y 30 minutos buscando información en repositorios dispersos cuando enfrenta incidentes poco comunes. Tecnológicamente, valora mucho el envío de capturas de pantalla, pero señala que estas requieren tiempo de interpretación humana. Desde la dimensión subjetiva, experimenta frustración recurrente ante tickets ambiguos (el clásico reporte de "no funciona"), y siente la presión generada por la acumulación de casos derivados de otros equipos. Su personalidad es metódica, analítica y resolutiva. Frente a la implementación de IA, muestra una postura colaborativa pero prudente; le gustaría un copiloto que resuma el caso y sugiera soluciones, pero exige mantener una estricta supervisión manual antes de ejecutar cualquier acción que pueda impactar los sistemas corporativos. Para él, el diseño ideal de la interfaz (UI) debe evitar "abrir mil cosas", concentrando todo el historial y las recomendaciones en una vista unificada.
+
+##### Entrevistado N.º 2: Piero Ramirez
+* **Edad:** 25
+* **Departamento/Distrito:** Lima (Surquillo)
+* **Estado civil:** Soltero
+* **Ocupación:** Analista de Soporte (L1)
+
+<p align="center">
+  <img src="assets/images/interview_evidence_5.png" alt="Evidencia de entrevista 5 - Piero Ramirez" width="600"/>
+</p>
+
+* **Acerca de la entrevista:**
+  * **Link:** TraceHelp 202620 - Entrevistas.mp4
+  * **Instante en el que inicia:** 31:20
+  * **Duración:** 6:40
+* **Síntesis del perfil:**  
+  Piero representa la primera línea de contención en una empresa mediana/grande. Su rutina diaria es altamente repetitiva, invirtiendo cerca del 50% de su jornada laboral en gestionar problemas básicos (accesos, aplicativos caídos). Tecnológicamente, depende de bases de conocimiento internas, correo y Microsoft Teams. Objetivamente, su tiempo de diagnóstico se ve severamente penalizado (de 5 a 15 minutos extra) por las descripciones imprecisas de los usuarios y la necesidad de interpretar mensajes de error en capturas de pantalla aisladas. Subjetivamente, la constante entrada de tickets (backlog) le genera niveles de presión considerables, obligándolo a priorizar de forma manual y apresurada para evitar el colapso de la cola. Como nativo digital, está acostumbrado a interfaces ágiles, por lo que la documentación corporativa desactualizada le resulta un punto de dolor importante. Su expectativa respecto a la IA es pragmática: necesita que identifique, priorice y muestre soluciones citando la fuente exacta. Su perfil alimenta las características del arquetipo L1: un trabajador operativo que demanda una interfaz donde el contexto del usuario, la prioridad y la recomendación de la IA convivan en un panel intuitivo y de rápida acción.
+
+##### Entrevistado N.º 3: Carlos Medina
+* **Edad:** 25
+* **Departamento/Distrito:** Lima (Surquillo)
+* **Estado civil:** Soltero
+* **Ocupación:** Analista de Soporte (L1)
+
+<p align="center">
+  <img src="assets/images/interview_evidence_6.png" alt="Evidencia de entrevista 6 - Carlos Medina" width="600"/>
+</p>
+
+* **Acerca de la entrevista:**
+  * **Link:** TraceHelp 202620 - Entrevistas.mp4
+  * **Instante en el que inicia:** 36:40
+  * **Duración:** 7:48
+* **Síntesis del perfil:**  
+  Carlos opera en el exigente entorno de una empresa de retail con 1,200 colaboradores. Su ecosistema tecnológico es robusto e incluye herramientas como Jira Service Management, Microsoft Teams, Outlook, Active Directory y SharePoint, interactuando mayormente desde su estación de trabajo de escritorio. Objetivamente, inicia sus mañanas con colas de 30 a 40 tickets, dedicando entre el 60% y 70% de su día a tareas rutinarias (reseteo de claves). Un dato técnico clave es que recibe capturas de pantalla en el 70% u 80% de los casos, pero al ser borrosas, le exigen transcribir manualmente los códigos de error para buscar su significado. A nivel subjetivo, Carlos manifiesta niveles importantes de ansiedad y agotamiento mental, sintiendo que la operatividad constante ("apagar incendios") fragmenta su trabajo y frena su crecimiento profesional. Su personalidad es directa, orientada a la eficiencia y cansada del "ping-pong" de mensajes con usuarios ambiguos. En cuanto al diseño y adopción de TraceHelp, exige una experiencia de usuario limpia y directa. Valora la supervisión humana, buscando que la IA asuma la carga pesada de analizar las imágenes, permitiéndole a él validar la sugerencia en 5 segundos mediante botones de acción rápida ("Aprobar", "Escalar") para reducir los clics y acelerar la atención.
+
+---
+
+### 2.2.3. Análisis de entrevistas
+
+#### Segmento Objetivo #1: Líderes Estratégicos de TI (CTOs, Gerentes y Jefes de Sistemas)
+El primer segmento identificado corresponde a los tomadores de decisiones que lideran áreas de TI en sectores críticos (público, energético y facturación electrónica), donde la continuidad operativa es fundamental. De acuerdo con las entrevistas realizadas, se observa que el 100% de los sujetos lidia con la saturación de sus mesas de ayuda debido a tareas de baja complejidad. Desde una perspectiva objetiva y económica, el 100% de los líderes considera que destinar personal técnico calificado a resolver problemas repetitivos (como el restablecimiento de contraseñas o dudas frecuentes) representa un desperdicio de recursos económicos y genera cuellos de botella que retrasan la ejecución de proyectos estratégicos de mayor valor.
+
+En cuanto al perfil de adopción tecnológica y modelos de negocio, el 100% de los entrevistados muestra un rechazo absoluto hacia los esquemas tradicionales de cobro de software ITSM que penalizan la automatización (cobro por ticket resuelto) o que exigen pagos adicionales por agente. Este hallazgo es fundamental para la construcción del arquetipo y para la estrategia comercial de TraceHelp, ya que los líderes buscan predecibilidad financiera mediante tarifas planas o costos fijos justificados por el ahorro en horas-hombre. Asimismo, el 100% de los participantes exige métricas claras de éxito para un periodo de prueba, esperando una reducción objetiva de al menos un 30% a 50% en la carga de tickets repetitivos de Nivel 1.
+
+Desde una dimensión subjetiva y de gestión de riesgos, el segmento está profundamente marcado por la cautela frente a la Inteligencia Artificial. El 100% de los entrevistados manifiesta un nivel de preocupación "muy alto" respecto a la privacidad de los datos y el riesgo de "alucinaciones" (respuestas inventadas). El temor recae en que una respuesta inexacta de la IA pueda derivar en multas tributarias, frenar procesos legales o afectar la continuidad del negocio. En consecuencia, el 100% exige garantías estrictas de gobernanza, como certificaciones ISO (27001), auditoría de fuentes, no entrenamiento de modelos públicos y trazabilidad total de las respuestas. En conclusión, el arquetipo de este segmento se define por la búsqueda de eficiencia operativa y predecibilidad de costos, valorando soluciones de automatización que ofrezcan un control absoluto sobre la precisión de los datos y eliminen por completo la incertidumbre de la IA genérica.
+
+#### Segmento Objetivo #2: Analistas y Especialistas de Soporte de TI (Operadores de Helpdesk Nivel 1 y 2)
+El segundo segmento objetivo representa a la primera y segunda línea de defensa operativa, quienes interactúan directamente con la frustración del usuario y los cuellos de botella del sistema. El 100% de los entrevistados coincide en que las tareas repetitivas y operativas consumen una porción significativa de su jornada (llegando a ocupar entre el 50% y 70% del día en algunos casos). Objetivamente, el principal obstáculo identificado por el 100% de los sujetos es la ambigüedad en los reportes de los usuarios (tickets con descripciones como "no funciona" o "me sale un error"), lo que los obliga a iniciar un desgaste operativo en forma de preguntas y respuestas ("ping-pong") para poder realizar el triaje inicial.
+
+En términos de diagnóstico visual y gestión del conocimiento, el análisis revela que el 100% de los analistas recibe capturas de pantalla de los errores con alta frecuencia. Sin embargo, estas imágenes a menudo carecen de contexto, obligándolos a invertir entre 5 y 30 minutos por incidente buceando en documentación interna (SharePoint, PDFs) o manuales desactualizados. Este dato valida objetivamente la necesidad de incorporar capacidades multimodales que no solo lean el texto, sino que interpreten la imagen del error y busquen automáticamente en la base de conocimiento de la empresa.
+
+Desde la dimensión subjetiva, este segmento lidia con una carga emocional negativa ligada a la presión constante. El 100% de los analistas experimenta estrés, ansiedad o agotamiento debido a la acumulación de tickets en el backlog durante las horas punta. Subjetivamente, el 66.7% expresa una profunda frustración por sentirse atrapados en la operatividad, lo que les impide avanzar en proyectos de mejora profesional. Frente a la adopción de un copiloto inteligente, existe un consenso psicológico clave: el 100% exige un modelo de supervisión humana (Human-in-the-loop). Los analistas desean que la IA automatice la búsqueda y proponga el diagnóstico, pero exigen mantener el control para validar la acción final y revisar la fuente de la recomendación antes de ejecutarla. El arquetipo de este segmento se consolida como un usuario pragmático y sobrecargado, que demanda interfaces limpias y unificadas que reduzcan los clics, alivien la carga mental de la memorización de manuales y le devuelvan el tiempo para realizar labores técnicas más desafiantes.
+
