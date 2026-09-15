@@ -63,3 +63,13 @@ En esta sección se presentan las Epics, User Stories y Technical Stories identi
 | **TS06** | Endpoint RESTful para Registro de Auditoría y Trazabilidad | Como Developer, deseo consumir el endpoint GET /api/v1/audit/logs para obtener el historial inalterable de operaciones procesadas por la IA. | **Escenario 1:** Dado que el desarrollador envía una solicitud paginada con credenciales y permisos válidos, Cuando la API procesa la consulta, Entonces responde con 200 OK entregando los eventos de auditoría y la metadata de paginación. <br>**Escenario 2:** Dado que el desarrollador no posee permisos de auditoría, Cuando la API valida la matriz RBAC, Entonces responde con 403 Forbidden. <br>**Escenario 3:** Dado que el cliente envía parámetros de paginación fuera del rango permitido, Cuando la API valida los parámetros, Entonces responde con 400 Bad Request. | **EP06** |
 
 ---
+
+## 3.3. Impact Mapping
+
+A continuación, se presenta el Impact Mapping de **TraceHelp**, el cual alinea la meta estratégica central del producto (reducir el MTTR en más del 40% y mitigar la sobrecarga operativa en helpdesk de TI) con los actores clave, los impactos esperados en su comportamiento diario y los entregables de software priorizados.
+
+![Impact Mapping de TraceHelp](assets/images/impact_map_tracehelp.png)
+
+*Figura 10.* Impact Mapping de TraceHelp, alineando metas estratégicas de reducción de MTTR, actores clave, impactos conductuales y entregables de software.
+
+---
