@@ -8,21 +8,116 @@ A continuación, se presenta el marco analítico comparativo (*Competitive Analy
 
 #### Competitive Analysis Landscape
 
-| Dimensión | Variable Evaluada | TraceHelp (Silph Technologies) | Freshservice (Freshworks)<br><br><img src="assets/images/competitor_freshservice_logo.png" alt="Logo de Freshservice" width="60"/> | Moveworks<br><br><img src="assets/images/competitor_moveworks_logo.png" alt="Logo de Moveworks" width="60"/> | Zendesk for IT Helpdesk<br><br><img src="assets/images/competitor_zendesk_logo.png" alt="Logo de Zendesk" width="60"/> |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Propósito del Análisis** | **¿Por qué llevar a cabo este análisis?** | Identificar las brechas en las ofertas globales de Helpdesk impulsado por IA para validar nuestro diferencial: ofrecer una solución enfocada estrictamente en la precisión sin alucinaciones (mediante arquitectura RAG) a un costo accesible para el mercado latinoamericano gracias a nuestra infraestructura Low-Code. | Identificar las brechas en las ofertas globales de Helpdesk impulsado por IA para validar nuestro diferencial: ofrecer una solución enfocada estrictamente en la precisión sin alucinaciones (mediante arquitectura RAG) a un costo accesible para el mercado latinoamericano gracias a nuestra infraestructura Low-Code. | Identificar las brechas en las ofertas globales de Helpdesk impulsado por IA para validar nuestro diferencial: ofrecer una solución enfocada estrictamente en la precisión sin alucinaciones (mediante arquitectura RAG) a un costo accesible para el mercado latinoamericano gracias a nuestra infraestructura Low-Code. | Identificar las brechas en las ofertas globales de Helpdesk impulsado por IA para validar nuestro diferencial: ofrecer una solución enfocada estrictamente en la precisión sin alucinaciones (mediante arquitectura RAG) a un costo accesible para el mercado latinoamericano gracias a nuestra infraestructura Low-Code. |
-| **Identidad Visual** | **Logotipo Oficial** | **TraceHelp** | <img src="assets/images/competitor_freshservice_logo.png" alt="Logo Freshservice" width="65"/> | <img src="assets/images/competitor_moveworks_logo.png" alt="Logo Moveworks" width="65"/> | <img src="assets/images/competitor_zendesk_logo.png" alt="Logo Zendesk" width="65"/> |
-| **Perfil** | **Overview** | Asistente inteligente de triaje y soporte de primer nivel de TI desarrollado por Silph Technologies (startup tecnológica fundada por estudiantes de la UPC). Utiliza arquitectura RAG e IA multimodal en un entorno Low-Code para analizar consultas de texto y capturas de pantalla de errores corporativos. | Solución ITSM (Gestión de Servicios de TI) en la nube de Freshworks. Es uno de los sistemas de Helpdesk técnica más populares del mundo, que recientemente introdujo "Freddy AI Copilot". | Plataforma Enterprise de IA conversacional líder en la automatización del Helpdesk. Está diseñada específicamente para integrarse detrás de escena con los sistemas existentes (como ServiceNow o Workday) para resolver requerimientos de TI. | Originalmente el gigante mundial de atención al cliente (Customer Support), que ha adaptado fuertemente su plataforma para uso interno de TI bajo el nombre Zendesk for IT Helpdesk, apalancado ahora por la suite Zendesk Advanced AI. |
-| **Perfil** | **Ventaja competitiva ¿Qué valor ofrece a los clientes?** | Respuestas precisas, auditables y libres de alucinaciones basadas exclusivamente en los manuales internos de la empresa. Su backend multimodal diagnostica errores directamente desde imágenes, mientras que su arquitectura Low-Code permite una rápida implementación a costos accesibles, reduciendo el burnout del equipo técnico. | Ofrece una plataforma "todo en uno" madura que cubre toda la gestión de activos, incidentes, cambios y aprobaciones corporativas (alineada a marcos ITIL), donde la IA complementa un flujo de trabajo que los analistas ya dominan. | Autonomía extrema. No es solo una herramienta de "sugerencia", sino que ejecuta acciones complejas por sí misma (desbloquear cuentas, dar permisos de software) utilizando NLP muy avanzado directamente desde el chat del empleado. | Una experiencia de usuario destacada (UX) tanto para el empleado como para el técnico, destacando en el análisis de sentimiento omnicanal y triaje automatizado basado en el comportamiento histórico. |
-| **Perfil de Marketing** | **Mercado objetivo** | CTOs, gerentes de TI y jefes de soporte de medianas y grandes empresas en Perú y Latinoamérica cuyo Helpdesk esté colapsada por solicitudes y descripciones ambiguas de Nivel 1. | Desde pymes hasta grandes empresas globales. En LatAm es muy popular entre medianas empresas por su facilidad de uso inicial. | Exclusivamente mercado corporativo Enterprise y "Fortune 500" (empresas de más de 1,000 a 5,000 empleados). | Muy amplio: Startups tecnológicas, scale-ups, y empresas corporativas que priorizan la agilidad y experiencia del usuario por encima de los rígidos marcos ITIL tradicionales. |
-| **Perfil de Marketing** | **Estrategias de marketing** | Venta consultiva B2B, pruebas de concepto (PoC) personalizadas utilizando la propia documentación del cliente para demostrar precisión, alianzas con la red académica y corporativa local, y marketing de contenidos enfocado en arquitectura RAG y eficiencia operativa. | Estrategia masiva Inbound (SEO, SEM, webinars), periodos de prueba gratuitos por 14-21 días (Product-led growth) y tácticas agresivas de "Land and Expand" (entrar con soporte básico y vender módulos extra). | Venta consultiva Enterprise de ciclo largo. Fuerte énfasis en la organización de eventos de liderazgo en TI, Whitepapers técnicos y casos de éxito de automatización millonaria demostrada con grandes firmas tecnológicas. | Comunidad muy activa de desarrolladores, marketing de contenidos de alto volumen (SEO), modelo freemium trial y fuerte inversión en conferencias y webinars sobre "Customer/Employee Experience". |
-| **Perfil de Producto** | **Productos & Servicios** | Portal web y móvil en Low-Code (Retool/FlutterFlow) para usuarios finales y analistas, respaldado por un backend de IA multimodal con base vectorial privada para el diagnóstico automatizado de incidentes. | Gestor de tickets ITSM, base de conocimiento, portal de auto-servicio, y Freddy AI Copilot (que resume tickets, sugiere respuestas basadas en artículos y asiste al agente). | Copiloto conversacional de IA para empleados (resolución de TI y RRHH), motor analítico profundo de automatización y conectores Enterprise. | Sistema de tickets omnicanal (correo, chat, redes), Help Center inteligente, y Zendesk AI (que incluye AI Agents, Copilot para agentes y QA automático). |
-| **Perfil de Producto** | **Precios & Costos** | Modelo SaaS con tarifas competitivas adaptadas al mercado latinoamericano (suscripción plana o según rango de volumen de uso), evitando cobros adicionales por agente o penalizaciones por tickets resueltos. | Modelo por agente que va desde los $19 hasta los $99/mes (facturación anual). Sin embargo, la función de IA (Freddy AI Copilot) es un add-on que cuesta $29 adicionales por agente al mes (excepto en el plan Enterprise más caro, donde viene incluida). | Su modelo comercial está orientado principalmente a organizaciones de gran tamaño, lo que puede limitar su accesibilidad para empresas medianas. | Planes de suite oscilan entre $55 y $115 por agente/mes. Su Copilot de IA tiene un costo adicional de $50 mensuales por agente. Para respuestas automáticas, te dan un límite básico (ej. 5 a 10 por agente), y luego cobran $1.50 por cada ticket que la IA resuelve (Automated Resolutions - AR). |
-| **Perfil de Producto** | **Canales de distribución (Web y/o Móvil)** | Portal SaaS Web corporativo y Aplicación Móvil nativa/híbrida desarrollada en Low-Code, integrable a la infraestructura tecnológica existente del cliente. | Plataforma SaaS en Web, integración robusta con Slack y MS Teams, y App Móvil para agentes. | Opera de manera invisible (Headless) integrándose dentro de MS Teams, Slack o portales corporativos web. | SaaS Web, aplicación móvil potente para gestión de tickets y ecosistema masivo de APIs. |
-| **Análisis SWOT** | **Fortalezas** | Diagnóstico por imagen y texto (multimodal), eliminación de alucinaciones mediante RAG estricto, alta velocidad de desarrollo e integración por uso de Low-Code, e impacto directo en la reducción de sobrecarga laboral. | Marca de confianza global, miles de integraciones nativas con otros softwares, y robustez en reportes de cumplimiento ITIL. | Presenta capacidades avanzadas de automatización conversacional y ejecución de acciones sobre sistemas empresariales. | Cuenta con capacidades omnicanal y herramientas orientadas a la gestión de la experiencia del usuario. |
-| **Análisis SWOT** | **Debilidades** | Startup emergente en etapa de consolidación comercial y construcción de reputación de marca; dependencia de la calidad y actualización previa de los manuales entregados por el cliente. | El modelo de precios castiga la adopción de IA: pagar el add-on de Freddy AI suele ser más caro que la propia licencia base del agente en planes iniciales. Su IA puede ser genérica si no se entrena adecuadamente la base de conocimiento. | Estructura de precios elitista e inflexible (obligan a pagar por toda la planilla de la empresa, usen o no la herramienta); requiere despliegues de 8 a 16 semanas y consultoría costosa. | El modelo contempla cargos adicionales asociados a determinadas resoluciones automatizadas. |
-| **Análisis SWOT** | **Oportunidades** | Creciente interés de empresas en LatAm por adoptar IA generativa de forma segura y privada; insatisfacción corporativa con los altos costos de licencias en herramientas ITSM tradicionales. | Venta cruzada (cross-selling) de su módulo de IA a su gigantesca base de clientes legacy. | Alianzas o adquisiciones corporativas estratégicas (como integraciones directas con ecosistemas de Microsoft o gigantes ITSM). | Capitalizar la migración de empresas que usan Zendesk en ventas/soporte al cliente y convencerlos de usarlo para uso interno (TI/RRHH). |
-| **Análisis SWOT** | **Amenazas** | Incorporación acelerada de módulos de RAG nativos por parte de competidores globales maduros; escepticismo inicial de comités corporativos tradicionales ante soluciones desarrolladas por startups emergentes. | Insatisfacción de clientes por cobros adicionales de funciones de IA que la competencia empieza a dar de forma nativa o por startups más económicas. | La proliferación de modelos Open Source y arquitecturas RAG ágiles como la de tu startup, que entregan el 80% de su valor a una fracción ínfima de su precio. | Startups que ofrecen herramientas dedicadas sin cobro transaccional por resolución. |
+<table>
+  <thead>
+    <tr>
+      <th colspan="6" style="text-align: left; font-size: 1.05em; padding: 8px;">Competitive Analysis Landscape</th>
+    </tr>
+    <tr>
+      <th colspan="2" style="text-align: left; vertical-align: top; padding: 8px;">¿Por qué llevar a cabo este análisis?</th>
+      <td colspan="4" style="padding: 8px;">Identificar las brechas en las ofertas globales de Helpdesk impulsado por IA para validar nuestro diferencial: ofrecer una solución enfocada estrictamente en la precisión sin alucinaciones (mediante arquitectura RAG) a un costo accesible para el mercado latinoamericano gracias a nuestra infraestructura Low-Code.</td>
+    </tr>
+    <tr>
+      <th colspan="2" style="padding: 8px;"></th>
+      <th style="text-align: center; vertical-align: top; padding: 8px; min-width: 140px;">TraceHelp</th>
+      <th style="text-align: center; vertical-align: top; padding: 8px; min-width: 140px;">
+        Freshservice<br><br>
+        <img src="assets/images/competitor_freshservice_logo.png" alt="Logo de Freshservice" width="60"/>
+      </th>
+      <th style="text-align: center; vertical-align: top; padding: 8px; min-width: 140px;">
+        Moveworks<br><br>
+        <img src="assets/images/competitor_moveworks_logo.png" alt="Logo de Moveworks" width="60"/>
+      </th>
+      <th style="text-align: center; vertical-align: top; padding: 8px; min-width: 140px;">
+        Zendesk<br><br>
+        <img src="assets/images/competitor_zendesk_logo.png" alt="Logo de Zendesk" width="60"/>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2" style="font-weight: bold; vertical-align: top; padding: 8px;">Perfil</td>
+      <td style="font-weight: bold; vertical-align: top; padding: 8px;">Overview</td>
+      <td style="padding: 8px; vertical-align: top;">Asistente inteligente de triaje y soporte de primer nivel de TI desarrollado por Silph Technologies (startup tecnológica fundada por estudiantes de la UPC). Utiliza arquitectura RAG e IA multimodal en un entorno Low-Code para analizar consultas de texto y capturas de pantalla de errores corporativos.</td>
+      <td style="padding: 8px; vertical-align: top;">Solución ITSM (Gestión de Servicios de TI) en la nube de Freshworks. Es uno de los sistemas de Helpdesk técnica más populares del mundo, que recientemente introdujo "Freddy AI Copilot".</td>
+      <td style="padding: 8px; vertical-align: top;">Plataforma Enterprise de IA conversacional líder en la automatización del Helpdesk. Está diseñada específicamente para integrarse detrás de escena con los sistemas existentes (como ServiceNow o Workday) para resolver requerimientos de TI.</td>
+      <td style="padding: 8px; vertical-align: top;">Originalmente el gigante mundial de atención al cliente (Customer Support), que ha adaptado fuertemente su plataforma para uso interno de TI bajo el nombre Zendesk for IT Helpdesk, apalancado ahora por la suite Zendesk Advanced AI.</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; vertical-align: top; padding: 8px;">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+      <td style="padding: 8px; vertical-align: top;">Respuestas precisas, auditables y libres de alucinaciones basadas exclusivamente en los manuales internos de la empresa. Su backend multimodal diagnostica errores directamente desde imágenes, mientras que su arquitectura Low-Code permite una rápida implementación a costos accesibles, reduciendo el burnout del equipo técnico.</td>
+      <td style="padding: 8px; vertical-align: top;">Ofrece una plataforma "todo en uno" madura que cubre toda la gestión de activos, incidentes, cambios y aprobaciones corporativas (alineada a marcos ITIL), donde la IA complementa un flujo de trabajo que los analistas ya dominan.</td>
+      <td style="padding: 8px; vertical-align: top;">Autonomía extrema. No es solo una herramienta de "sugerencia", sino que ejecuta acciones complejas por sí misma (desbloquear cuentas, dar permisos de software) utilizando NLP muy avanzado directamente desde el chat del empleado.</td>
+      <td style="padding: 8px; vertical-align: top;">Una experiencia de usuario destacada (UX) tanto para el empleado como para el técnico, destacando en el análisis de sentimiento omnicanal y triaje automatizado basado en el comportamiento histórico.</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="font-weight: bold; vertical-align: top; padding: 8px;">Perfil de Marketing</td>
+      <td style="font-weight: bold; vertical-align: top; padding: 8px;">Mercado objetivo</td>
+      <td style="padding: 8px; vertical-align: top;">CTOs, gerentes de TI y jefes de soporte de medianas y grandes empresas en Perú y Latinoamérica cuyo Helpdesk esté colapsada por solicitudes y descripciones ambiguas de Nivel 1.</td>
+      <td style="padding: 8px; vertical-align: top;">Desde pymes hasta grandes empresas globales. En LatAm es muy popular entre medianas empresas por su facilidad de uso inicial.</td>
+      <td style="padding: 8px; vertical-align: top;">Exclusivamente mercado corporativo Enterprise y "Fortune 500" (empresas de más de 1,000 a 5,000 empleados).</td>
+      <td style="padding: 8px; vertical-align: top;">Muy amplio: Startups tecnológicas, scale-ups, y empresas corporativas que priorizan la agilidad y experiencia del usuario por encima de los rígidos marcos ITIL tradicionales.</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; vertical-align: top; padding: 8px;">Estrategias de marketing</td>
+      <td style="padding: 8px; vertical-align: top;">Venta consultiva B2B, pruebas de concepto (PoC) personalizadas utilizando la propia documentación del cliente para demostrar precisión, alianzas con la red académica y corporativa local, y marketing de contenidos enfocado en arquitectura RAG y eficiencia operativa.</td>
+      <td style="padding: 8px; vertical-align: top;">Estrategia masiva Inbound (SEO, SEM, webinars), periodos de prueba gratuitos por 14-21 días (Product-led growth) y tácticas agresivas de "Land and Expand" (entrar con soporte básico y vender módulos extra).</td>
+      <td style="padding: 8px; vertical-align: top;">Venta consultiva Enterprise de ciclo largo. Fuerte énfasis en la organización de eventos de liderazgo en TI, Whitepapers técnicos y casos de éxito de automatización millonaria demostrada con grandes firmas tecnológicas.</td>
+      <td style="padding: 8px; vertical-align: top;">Comunidad muy activa de desarrolladores, marketing de contenidos de alto volumen (SEO), modelo freemium trial y fuerte inversión en conferencias y webinars sobre "Customer/Employee Experience".</td>
+    </tr>
+    <tr>
+      <td rowspan="3" style="font-weight: bold; vertical-align: top; padding: 8px;">Perfil de Producto</td>
+      <td style="font-weight: bold; vertical-align: top; padding: 8px;">Productos & Servicios</td>
+      <td style="padding: 8px; vertical-align: top;">Portal web y móvil en Low-Code (Retool/FlutterFlow) para usuarios finales y analistas, respaldado por un backend de IA multimodal con base vectorial privada para el diagnóstico automatizado de incidentes.</td>
+      <td style="padding: 8px; vertical-align: top;">Gestor de tickets ITSM, base de conocimiento, portal de auto-servicio, y Freddy AI Copilot (que resume tickets, sugiere respuestas basadas en artículos y asiste al agente).</td>
+      <td style="padding: 8px; vertical-align: top;">Copiloto conversacional de IA para empleados (resolución de TI y RRHH), motor analítico profundo de automatización y conectores Enterprise.</td>
+      <td style="padding: 8px; vertical-align: top;">Sistema de tickets omnicanal (correo, chat, redes), Help Center inteligente, y Zendesk AI (que incluye AI Agents, Copilot para agentes y QA automático).</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; vertical-align: top; padding: 8px;">Precios & Costos</td>
+      <td style="padding: 8px; vertical-align: top;">Modelo SaaS con tarifas competitivas adaptadas al mercado latinoamericano (suscripción plana o según rango de volumen de uso), evitando cobros adicionales por agente o penalizaciones por tickets resueltos.</td>
+      <td style="padding: 8px; vertical-align: top;">Modelo por agente que va desde los $19 hasta los $99/mes (facturación anual). Sin embargo, la función de IA (Freddy AI Copilot) es un add-on que cuesta $29 adicionales por agente al mes (excepto en el plan Enterprise más caro, donde viene incluida).</td>
+      <td style="padding: 8px; vertical-align: top;">Su modelo comercial está orientado principalmente a organizaciones de gran tamaño, lo que puede limitar su accesibilidad para empresas medianas.</td>
+      <td style="padding: 8px; vertical-align: top;">Planes de suite oscilan entre $55 y $115 por agente/mes. Su Copilot de IA tiene un costo adicional de $50 mensuales por agente. Para respuestas automáticas, te dan un límite básico (ej. 5 a 10 por agente), y luego cobran $1.50 por cada ticket que la IA resuelve (Automated Resolutions - AR).</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; vertical-align: top; padding: 8px;">Canales de distribución (Web y/o Móvil)</td>
+      <td style="padding: 8px; vertical-align: top;">Portal SaaS Web corporativo y Aplicación Móvil nativa/híbrida desarrollada en Low-Code, integrable a la infraestructura tecnológica existente del cliente.</td>
+      <td style="padding: 8px; vertical-align: top;">Plataforma SaaS en Web, integración robusta con Slack y MS Teams, y App Móvil para agentes.</td>
+      <td style="padding: 8px; vertical-align: top;">Opera de manera invisible (Headless) integrándose dentro de MS Teams, Slack o portales corporativos web.</td>
+      <td style="padding: 8px; vertical-align: top;">SaaS Web, aplicación móvil potente para gestión de tickets y ecosistema masivo de APIs.</td>
+    </tr>
+    <tr>
+      <td rowspan="4" style="font-weight: bold; vertical-align: top; padding: 8px;">Análisis SWOT</td>
+      <td style="font-weight: bold; vertical-align: top; padding: 8px;">Fortalezas</td>
+      <td style="padding: 8px; vertical-align: top;">Diagnóstico por imagen y texto (multimodal), eliminación de alucinaciones mediante RAG estricto, alta velocidad de desarrollo e integración por uso de Low-Code, e impacto directo en la reducción de sobrecarga laboral.</td>
+      <td style="padding: 8px; vertical-align: top;">Marca de confianza global, miles de integraciones nativas con otros softwares, y robustez en reportes de cumplimiento ITIL.</td>
+      <td style="padding: 8px; vertical-align: top;">Presenta capacidades avanzadas de automatización conversacional y ejecución de acciones sobre sistemas empresariales.</td>
+      <td style="padding: 8px; vertical-align: top;">Cuenta con capacidades omnicanal y herramientas orientadas a la gestión de la experiencia del usuario.</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; vertical-align: top; padding: 8px;">Debilidades</td>
+      <td style="padding: 8px; vertical-align: top;">Startup emergente en etapa de consolidación comercial y construcción de reputación de marca; dependencia de la calidad y actualización previa de los manuales entregados por el cliente.</td>
+      <td style="padding: 8px; vertical-align: top;">El modelo de precios castiga la adopción de IA: pagar el add-on de Freddy AI suele ser más caro que la propia licencia base del agente en planes iniciales. Su IA puede ser genérica si no se entrena adecuadamente la base de conocimiento.</td>
+      <td style="padding: 8px; vertical-align: top;">Estructura de precios elitista e inflexible (obligan a pagar por toda la planilla de la empresa, usen o no la herramienta); requiere despliegues de 8 a 16 semanas y consultoría costosa.</td>
+      <td style="padding: 8px; vertical-align: top;">El modelo contempla cargos adicionales asociados a determinadas resoluciones automatizadas.</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; vertical-align: top; padding: 8px;">Oportunidades</td>
+      <td style="padding: 8px; vertical-align: top;">Creciente interés de empresas en LatAm por adoptar IA generativa de forma segura y privada; insatisfacción corporativa con los altos costos de licencias en herramientas ITSM tradicionales.</td>
+      <td style="padding: 8px; vertical-align: top;">Venta cruzada (cross-selling) de su módulo de IA a su gigantesca base de clientes legacy.</td>
+      <td style="padding: 8px; vertical-align: top;">Alianzas o adquisiciones corporativas estratégicas (como integraciones directas con ecosistemas de Microsoft o gigantes ITSM).</td>
+      <td style="padding: 8px; vertical-align: top;">Capitalizar la migración de empresas que usan Zendesk en ventas/soporte al cliente y convencerlos de usarlo para uso interno (TI/RRHH).</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; vertical-align: top; padding: 8px;">Amenazas</td>
+      <td style="padding: 8px; vertical-align: top;">Incorporación acelerada de módulos de RAG nativos por parte de competidores globales maduros; escepticismo inicial de comités corporativos tradicionales ante soluciones desarrolladas por startups emergentes.</td>
+      <td style="padding: 8px; vertical-align: top;">Insatisfacción de clientes por cobros adicionales de funciones de IA que la competencia empieza a dar de forma nativa o por startups más económicas.</td>
+      <td style="padding: 8px; vertical-align: top;">La proliferación de modelos Open Source y arquitecturas RAG ágiles como la de tu startup, que entregan el 80% de su valor a una fracción ínfima de su precio.</td>
+      <td style="padding: 8px; vertical-align: top;">Startups que ofrecen herramientas dedicadas sin cobro transaccional por resolución.</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
