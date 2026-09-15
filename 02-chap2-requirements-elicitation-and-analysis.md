@@ -313,4 +313,39 @@ El siguiente escenario As-Is fue desarrollado a partir de entrevistas y análisi
 
 *Figura 7.* As-Is Scenario Mapping para Karim Ramírez (Analista de Soporte TI L1).
 
+---
+
+## 2.4. Ubiquitous Language
+
+En esta sección se presentan los términos clave del proyecto **TraceHelp**. Estos términos han sido evaluados por el equipo y definen el lenguaje del dominio de gestión de servicios de TI, el cual es asistido por inteligencia artificial y arquitecturas RAG. Serán utilizados de manera consistente en la comunicación, especificación de requerimientos, modelado estratégico de Domain-Driven Design (DDD) y desarrollo de los distintos componentes del sistema.
+
+### Glosario de Dominio (Ubiquitous Language)
+
+| Term (EN) | Definición (ES) |
+| :--- | :--- |
+| **Incident / Ticket (Incidente / Ticket)** | Registro formal de una interrupción no planificada, degradación de un servicio de TI o consulta técnica reportada por un colaborador de la organización. |
+| **Ticket Triage (Triaje de tickets)** | Proceso de evaluación inicial que analiza el contenido de un incidente para determinar automáticamente su categoría, criticidad, severidad y canal de asignación adecuado. |
+| **Multimodal Input (Entrada multimodal)** | Capacidad del sistema para recibir y procesar conjuntamente texto descriptivo e imágenes (capturas de pantalla de errores, mensajes del sistema operativo o diálogos de software). |
+| **Visual Error Diagnosis (Diagnóstico visual de errores)** | Proceso de extracción e interpretación semántica mediante visión artificial (OCR y modelos multimodales) para identificar códigos de fallo, ventanas emergentes y anomalías gráficas. |
+| **Knowledge Base / KB (Base de conocimiento)** | Repositorio corporativo centralizado que contiene artículos técnicos, manuales operativos, guías de soporte y soluciones a problemas conocidos validados por el área de TI. |
+| **Knowledge Chunk (Fragmento de conocimiento)** | Bloque de texto normalizado y tokenizado extraído de la documentación corporativa, optimizado para indexación y búsqueda vectorial eficiente. |
+| **Vector Embedding (Incrustación vectorial)** | Representación numérica de alta dimensionalidad de un fragmento de texto o consulta, que permite calcular similitudes semánticas en una base de datos vectorial. |
+| **Retrieval-Augmented Generation / RAG (Generación Aumentada por Recuperación)** | Patrón arquitectónico que recupera fragmentos pertinentes de la base de conocimiento corporativa y los suministra como contexto a un LLM para generar respuestas fundamentadas y precisas. |
+| **Grounding (Fundamentación de respuestas)** | Principio arquitectónico que obliga al asistente inteligente a basar sus respuestas y recomendaciones exclusivamente en las fuentes oficiales verificadas de la empresa. |
+| **Hallucination (Alucinación)** | Generación de respuestas plausibles pero erróneas o no sustentadas por parte del modelo de lenguaje; riesgo mitigado en el sistema mediante la arquitectura RAG y el grounding estricto. |
+| **Human-in-the-Loop / HITL (Supervisión humana en el flujo)** | Modelo operativo donde la IA propone un diagnóstico y una respuesta sugerida, pero un analista de soporte humano debe revisar y confirmar antes de ejecutarla o enviarla. |
+| **Suggested Resolution (Resolución sugerida)** | Propuesta estructurada generada por TraceHelp que incluye pasos técnicos de solución, diagnósticos previos y enlaces a las fuentes oficiales de la documentación utilizada. |
+| **Confidence Score (Puntaje de confianza)** | Valor numérico probabilístico asignado por el motor de triaje que indica el grado de certeza y correspondencia semántica entre el incidente reportado y el conocimiento recuperado. |
+| **Ticket Deflection (Deflexión de tickets)** | Resolución exitosa de un incidente mediante autoservicio o recomendación automatizada de primer contacto, evitando la intervención prolongada o el escalamiento a niveles superiores. |
+| **Escalation (Escalamiento)** | Transferencia formal y automatizada de un incidente hacia analistas de Soporte Nivel 2 (L2) o Especialistas Nivel 3 (L3) cuando su complejidad o permisos exceden el alcance del Nivel 1. |
+| **Mean Time to Resolve / MTTR (Tiempo medio de resolución)** | Métrica estándar de ITSM que contabiliza el tiempo promedio transcurrido desde que un usuario registra un ticket hasta que la solución es aplicada y confirmada. |
+| **First Contact Resolution / FCR (Resolución en primer contacto)** | Porcentaje de tickets que logran ser solucionados durante la primera interacción con el soporte, sin requerir reasignaciones ni comunicaciones adicionales. |
+| **Service Level Agreement / SLA (Acuerdo de nivel de servicio)** | Compromiso formal que estipula los tiempos máximos permitidos para la primera respuesta y para la resolución definitiva de un incidente según su nivel de prioridad. |
+| **Support Analyst L1 (Analista de soporte Nivel 1)** | Operador de la mesa de ayuda responsable de la recepción de solicitudes, atención inicial, diagnóstico guiado y aplicación de soluciones rutinarias de helpdesk. |
+| **Support Specialist L2/L3 (Especialista de soporte Nivel 2/3)** | Ingeniero técnico de infraestructura, redes o desarrollo encargado de resolver incidencias complejas, caídas de servidores o fallas críticas que requieren permisos elevados. |
+| **ITSM Platform (Plataforma de gestión de servicios de TI)** | Sistema empresarial de gestión de tickets y mesa de ayuda (ej. Jira Service Management, ServiceNow, GLPI) con el cual se integra TraceHelp. |
+| **Audit Trail / Activity Log (Registro de auditoría / Trazabilidad)** | Bitácora inmutable que almacena cronológicamente cada acción realizada en el ticket: consultas recibidas, fragmentos RAG consultados, sugerencias emitidas y usuario que validó la acción. |
+| **Data Masking / PII Protection (Enmascaramiento de datos sensibles / PII)** | Filtro de seguridad que anonimiza contraseñas, tokens y datos personales en tickets y capturas de pantalla antes de que sean procesados por el modelo de lenguaje. |
+
+
 
