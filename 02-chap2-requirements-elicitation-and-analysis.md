@@ -226,3 +226,91 @@ En términos de diagnóstico visual y gestión del conocimiento, el análisis re
 
 Desde la dimensión subjetiva, este segmento lidia con una carga emocional negativa ligada a la presión constante. El 100% de los analistas experimenta estrés, ansiedad o agotamiento debido a la acumulación de tickets en el backlog durante las horas punta. Subjetivamente, el 66.7% expresa una profunda frustración por sentirse atrapados en la operatividad, lo que les impide avanzar en proyectos de mejora profesional. Frente a la adopción de un copiloto inteligente, existe un consenso psicológico clave: el 100% exige un modelo de supervisión humana (Human-in-the-loop). Los analistas desean que la IA automatice la búsqueda y proponga el diagnóstico, pero exigen mantener el control para validar la acción final y revisar la fuente de la recomendación antes de ejecutarla. El arquetipo de este segmento se consolida como un usuario pragmático y sobrecargado, que demanda interfaces limpias y unificadas que reduzcan los clics, alivien la carga mental de la memorización de manuales y le devuelvan el tiempo para realizar labores técnicas más desafiantes.
 
+---
+
+## 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+#### Segmento Objetivo #1: Líderes Estratégicos de TI (CTOs, Gerentes y Jefes de Sistemas)
+Esta sección presenta la ficha arquetípica de **Roberto Pérez**, quien sintetiza el perfil del líder tecnológico corporativo enfocado en la gobernanza, cumplimiento de SLAs y optimización de costos en el helpdesk.
+
+<p align="center">
+  <img src="assets/images/user_persona_roberto.png" alt="User Persona 1 - Roberto Pérez" width="800"/>
+</p>
+
+*Figura 2.* User Persona de Roberto Pérez (Líder Estratégico de TI) elaborado en UXPressia.
+
+#### Segmento Objetivo #2: Analistas y Especialistas de Soporte de TI (Operadores de Helpdesk Nivel 1 y 2)
+Esta sección presenta la ficha arquetípica de **Karim Ramírez**, operador de soporte técnico de primera línea que experimenta la sobrecarga operativa, el tecnoestrés y la necesidad de herramientas de triaje inteligente asistidas por IA multimodal.
+
+<p align="center">
+  <img src="assets/images/user_persona_karim.png" alt="User Persona 2 - Karim Ramírez" width="800"/>
+</p>
+
+*Figura 3.* User Persona de Karim Ramírez (Analista de Soporte TI L1/L2) elaborado en UXPressia.
+
+---
+
+### 2.3.2. User Task Matrix
+
+La presente sección presenta el **User Task Matrix**, considerando los dos segmentos definidos para el proyecto: los Líderes Estratégicos de TI y los Analistas y Especialistas de Soporte de TI. A partir de las fichas de User Personas, se han identificado las tareas operativas y estratégicas clave que estos usuarios realizan en su día a día para cumplir con sus objetivos, independientemente de la existencia de la solución de software TraceHelp. Este análisis permite comprender la frecuencia e importancia de cada actividad, sirviendo como base para entender dónde se concentran los cuellos de botella y priorizar el desarrollo del sistema.
+
+| User Task Matrix | Roberto Pérez (Líder Estratégico de TI) - Frecuencia | Roberto Pérez (Líder Estratégico de TI) - Importancia | Karim Ramírez (Analista de Soporte TI L1) - Frecuencia | Karim Ramírez (Analista de Soporte TI L1) - Importancia |
+| :--- | :---: | :---: | :---: | :---: |
+| **Monitorear indicadores de rendimiento (MTTR, SLA y volumen de tickets)** | Siempre | Alta | Con frecuencia | Media |
+| **Supervisar costos operativos y justificar retorno de inversión (ROI) del Helpdesk** | Con frecuencia | Alta | Rara vez | Baja |
+| **Auditar cumplimiento de políticas de seguridad y gobernanza de datos (ISO 27001)** | Con frecuencia | Alta | Ocasionalmente | Media |
+| **Gestionar y actualizar manuales técnicos y bases de conocimiento corporativas** | Ocasionalmente | Media | Con frecuencia | Alta |
+| **Recepción, clasificación y triaje inicial de solicitudes de soporte L1** | Nunca | Baja | Siempre | Alta |
+| **Interpretación y diagnóstico de capturas de pantalla de errores** | Nunca | Baja | Siempre | Alta |
+| **Búsqueda de procedimientos de solución en manuales dispersos (PDFs/SharePoint)** | Rara vez | Baja | Siempre | Alta |
+| **Interacción y comunicación repetitiva con usuarios por reportes ambiguos ("ping-pong")** | Nunca | Baja | Siempre | Alta |
+| **Resolución de incidentes rutinarios de Nivel 1 (reseteo de credenciales, accesos básicos)** | Nunca | Baja | Siempre | Alta |
+| **Escalamiento y derivación de incidentes complejos a especialistas de Nivel 2 y 3** | Ocasionalmente | Media | Con frecuencia | Alta |
+
+---
+
+### 2.3.3. Empathy Mapping
+
+En esta sección, el equipo resume el proceso de empatización y presenta los Empathy Maps elaborados para cada una de nuestras User Personas clave: Roberto Pérez (Líder Estratégico de TI) y Karim Ramírez (Analista de Soporte L1/L2).
+
+Esta sección presenta el Empathy Map elaborado para **Roberto Pérez**, nuestra User Persona representativa de los Líderes Estratégicos de TI (CTOs, Gerentes y Jefes de Sistemas). El mapa sintetiza las presiones de gobernanza, presupuesto y ciberseguridad a las que se enfrenta al gestionar el soporte técnico corporativo.
+
+<p align="center">
+  <img src="assets/images/empathy_map_roberto.png" alt="Empathy Map - Roberto Pérez" width="850"/>
+</p>
+
+*Figura 4.* Empathy Map de Roberto Pérez elaborado en UXPressia.
+
+Esta sección presenta el Empathy Map elaborado para **Karim Ramírez**, nuestro User Persona que representa a los Analistas de Soporte de Nivel 1 y 2. El mapa refleja la sobrecarga cognitiva, el tecnoestrés y la frustración que experimenta en la atención diaria de tickets no estructurados.
+
+<p align="center">
+  <img src="assets/images/empathy_map_karim.png" alt="Empathy Map - Karim Ramírez" width="850"/>
+</p>
+
+*Figura 5.* Empathy Map de Karim Ramírez elaborado en UXPressia.
+
+---
+
+### 2.3.4. As-is Scenario Mapping
+
+#### Segmento 1: Líderes Estratégicos de TI (Roberto Pérez)
+El siguiente escenario As-Is fue desarrollado a partir de entrevistas y análisis del comportamiento del perfil de Roberto Pérez. Se identificaron las principales fases que conforman su rutina de supervisión estratégica, monitoreo de métricas operativas y gestión presupuestal del área de TI sin contar con TraceHelp.
+
+<p align="center">
+  <img src="assets/images/as_is_scenario_mapping_roberto.png" alt="As-Is Scenario Mapping - Roberto Pérez" width="950"/>
+</p>
+
+*Figura 6.* As-Is Scenario Mapping para Roberto Pérez (Líder Estratégico de TI).
+
+#### Segmento 2: Analistas y Especialistas de Soporte de TI (Karim Ramírez)
+El siguiente escenario As-Is fue desarrollado a partir de entrevistas y análisis del comportamiento del perfil de Karim Ramírez. Se identificaron las principales fases que conforman su flujo de trabajo diario actual como analista de soporte técnico, evidenciando las tareas manuales, la falta de información contextual y el tecnoestrés derivado de la atención de tickets repetitivos sin TraceHelp.
+
+<p align="center">
+  <img src="assets/images/as_is_scenario_mapping_karim.png" alt="As-Is Scenario Mapping - Karim Ramírez" width="950"/>
+</p>
+
+*Figura 7.* As-Is Scenario Mapping para Karim Ramírez (Analista de Soporte TI L1).
+
+
