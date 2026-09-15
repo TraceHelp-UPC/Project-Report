@@ -1,0 +1,11 @@
+# Large working document binaries
+*.docx
+*.pdf
+
+# Python scratch / cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
