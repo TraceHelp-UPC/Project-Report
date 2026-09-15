@@ -73,3 +73,43 @@ A continuación, se presenta el Impact Mapping de **TraceHelp**, el cual alinea 
 *Figura 10.* Impact Mapping de TraceHelp, alineando metas estratégicas de reducción de MTTR, actores clave, impactos conductuales y entregables de software.
 
 ---
+
+## 3.4. Product Backlog
+
+En esta sección se presenta el Product Backlog de TraceHelp, conformado por las User Stories y Technical Stories priorizadas según su valor para el negocio y estimadas mediante Story Points utilizando la escala de Fibonacci.
+
+* **Herramienta utilizada:** Jira Software
+* **Product Backlog:** [Tablero Jira de TraceHelp (Silph Technologies)](https://alejandrobinda-1789150691325.atlassian.net/jira/software/projects/KAN/list?jql=project+%3D+KAN+ORDER+BY+cf%5B10019%5D+ASC&atlOrigin=eyJpIjoiOThhZDM5NTZiMWIxNDdiM2ExNDBhODQwNTNhNWIxNTYiLCJwIjoiaiJ9)
+
+| # Orden | User Story / Technical Story ID | Título | Descripción | Story Points |
+| :---: | :---: | :--- | :--- | :---: |
+| 1 | **US01** | Presentación de la Propuesta de Valor | Como Visitante, deseo conocer la propuesta de valor de TraceHelp para comprender cómo la solución contribuye a reducir la sobrecarga operativa y los tiempos de resolución de incidentes. | 3 |
+| 2 | **US02** | Solicitud de Demostración | Como Visitante del segmento Líder de TI, deseo solicitar una demostración de TraceHelp para evaluar su utilidad para la gestión de soporte técnico de mi organización. | 3 |
+| 3 | **US03** | Cálculo de ROI | Como Visitante del segmento Líder de TI, deseo estimar el retorno de inversión de TraceHelp para evaluar el impacto económico de adoptar la solución. | 5 |
+| 4 | **US04** | Información Institucional y Contacto | Como Visitante, deseo conocer información institucional, políticas y medios de contacto de TraceHelp para evaluar la confiabilidad de la empresa y establecer comunicación. | 2 |
+| 5 | **US05** | Casos de Éxito y Testimonios | Como Visitante del segmento Líder de TI, deseo conocer casos de éxito relacionados con TraceHelp para evaluar resultados obtenidos por organizaciones similares. | 3 |
+| 6 | **US10** | Registro de Incidente Multimodal | Como Colaborador no técnico, deseo registrar un incidente proporcionando texto y capturas de pantalla para facilitar el diagnóstico automatizado. | 5 |
+| 7 | **TS01** | Endpoint RESTful para Ingesta y Vectorización de Documentos | Como Developer, deseo disponer de la API RESTful POST /api/v1/workspaces/{id}/documents para procesar archivos técnicos e indexarlos para integrar el almacenamiento con el pipeline RAG. | 5 |
+| 8 | **US11** | Diagnóstico Automatizado mediante RAG | Como Analista de Soporte Nivel 1, deseo obtener una recomendación de solución generada mediante RAG para reducir el tiempo dedicado al diagnóstico de incidentes. | 8 |
+| 9 | **TS02** | Endpoint RESTful para Consultas Diagnósticas RAG Multimodales | Como Developer, deseo consumir el servicio RESTful POST /api/v1/triage/analyze enviando texto e imagen en formato multipart para obtener una recomendación estructurada de solución. | 8 |
+| 10 | **US15** | Validación Humana de Respuesta IA | Como Analista de Soporte Nivel 1, deseo revisar, editar o aprobar la respuesta generada por la IA antes de enviarla al colaborador para asegurar la precisión del mensaje. | 5 |
+| 11 | **US12** | Consulta de Solución mediante Autoservicio | Como Colaborador no técnico, deseo recibir una recomendación automatizada para resolver mi incidente para reducir el tiempo de espera por asistencia técnica. | 5 |
+| 12 | **TS04** | Endpoints RESTful para Gestión y Actualización de Tickets | Como Developer, deseo contar con los servicios RESTful POST /api/v1/tickets y PATCH /api/v1/tickets/{id}/status para administrar el ciclo de vida de los incidentes. | 5 |
+| 13 | **US14** | Gestión del Ciclo de Vida del Ticket | Como Analista de Soporte Nivel 1, deseo gestionar el estado y seguimiento de los tickets para controlar el ciclo de resolución de los incidentes. | 5 |
+| 14 | **US16** | Asignación Inteligente de Tickets | Como Analista de Soporte Nivel 1, deseo que los tickets sean asignados según disponibilidad y carga de trabajo para equilibrar la atención de incidentes. | 5 |
+| 15 | **US17** | Escalamiento Automatizado a Soporte Nivel 2 | Como Analista de Soporte Nivel 1, deseo derivar un ticket complejo al equipo especialista L2 adjuntando el historial de triaje y fuentes consultadas para transferir la atención sin pérdidas de contexto. | 3 |
+| 16 | **US18** | Cierre y Evaluación de Satisfacción del Incidente | Como Colaborador no técnico, deseo confirmar la solución recibida y clasificar la calidad de la atención de 1 a 5 estrellas para retroalimentar la efectividad de la solución brindada. | 3 |
+| 17 | **US19** | Notificaciones en Tiempo Real sobre Estado del Ticket | Como Colaborador no técnico, deseo recibir alertas sobre los cambios de estado de mi ticket para estar informado sobre el avance de mi solicitud. | 3 |
+| 18 | **US06** | Gestión de Base de Conocimiento | Como Líder Estratégico de TI, deseo cargar documentos técnicos para incorporarlos a la base de conocimiento utilizada por TraceHelp. | 5 |
+| 19 | **US07** | Configuración de Parámetros RAG | Como Líder Estratégico de TI, deseo configurar los parámetros del motor RAG para adaptar la recuperación de información a las necesidades de la organización. | 5 |
+| 20 | **US08** | Configuración de Reglas de Negocio | Como Líder Estratégico de TI, deseo configurar reglas de negocio para adaptar el procesamiento de incidentes a las políticas de soporte de la organización. | 3 |
+| 21 | **TS03** | Endpoint RESTful para Autenticación Corporativa y JWT | Como Developer, deseo implementar los endpoints POST /api/v1/auth/login y POST /api/v1/auth/refresh para asegurar el acceso basado en roles mediante tokens JWT. | 5 |
+| 22 | **US09** | Gestión de Usuarios y Roles | Como Líder Estratégico de TI, deseo administrar los usuarios y sus roles para controlar el acceso a las funcionalidades de TraceHelp. | 5 |
+| 23 | **TS05** | Endpoint RESTful para Extracción de Métricas Consolidadas | Como Developer, deseo disponer del endpoint GET /api/v1/analytics/metrics para suministrar estadísticas agregadas a la aplicación Web ejecutiva. | 3 |
+| 24 | **US20** | Dashboard Ejecutivo de Tiempos de Resolución y MTTR | Como Líder Estratégico de TI, deseo consultar indicadores de MTTR, volumen de incidentes y tasa de deflexión de tickets para medir la mejora en la eficiencia de la mesa de ayuda. | 5 |
+| 25 | **TS06** | Endpoint RESTful para Registro de Auditoría y Trazabilidad | Como Developer, deseo consumir el endpoint GET /api/v1/audit/logs para obtener el historial inalterable de operaciones procesadas por la IA. | 3 |
+| 26 | **US21** | Consulta del Registro Inmutable de Trazabilidad y Auditoría | Como Líder Estratégico de TI, deseo auditar las respuestas generadas por el sistema indicando los analistas validadores y las fuentes consultadas para garantizar el cumplimiento de las políticas de seguridad. | 5 |
+| 27 | **US22** | Monitoreo de Alucinaciones y Nivel de Confianza | Como Líder Estratégico de TI, deseo analizar las alertas de bajo puntaje de confianza registradas por el motor RAG para identificar vacíos de conocimiento en los manuales de la empresa. | 5 |
+| 28 | **US13** | Consulta de Historial de Incidentes | Como Colaborador no técnico, deseo consultar mis incidentes anteriores para recuperar información de solicitudes previamente realizadas. | 3 |
+| 29 | **US23** | Exportación de Reportes Personalizados de Soporte en PDF y CSV | Como Líder Estratégico de TI, deseo exportar información detallada de tickets e indicadores en formatos PDF y CSV para procesar los datos en herramientas externas de Inteligencia de Negocios. | 3 |
+
