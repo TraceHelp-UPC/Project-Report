@@ -189,4 +189,55 @@ La oportunidad para Silph Technologies radica en ofrecer **TraceHelp** como un c
 
 *Figura 1.* Lean UX Canvas de TraceHelp desarrollado por Silph Technologies. Referencia en línea: [Google Docs - Lean UX Canvas](https://docs.google.com/document/d/1AehXzps9-Qiyk5w-4XLalrF8TTc83NRz/edit?usp=sharing).
 
+---
+
+## 1.3. Segmentos Objetivo
+
+### Segmento 1: Líderes Estratégicos de TI (CTOs, Gerentes y Jefes de Sistemas)
+Representa a los tomadores de decisiones presupuestales y operativas de medianas y grandes empresas que buscan optimizar costos, mejorar la eficiencia del Helpdesk y reducir la sobrecarga del equipo técnico mediante el uso de inteligencia artificial.
+
+Este segmento corresponde al **buyer persona** (comprador y patrocinador del proyecto), cuya participación es clave para evaluar el valor económico de la solución, los mecanismos de auditoría y los requisitos de seguridad de los datos dentro de la organización.
+
+* **Aspectos Demográficos:**
+  * **Sexo:** Masculino y femenino.
+  * **Edad:** 27 a 55 años.
+  * **Nivel socioeconómico:** A y B.
+* **Aspectos Geográficos:**
+  * **Ubicación:** Zonas corporativas e industriales de Lima Metropolitana y principales provincias del Perú (Arequipa, Trujillo, Piura).
+  * **Alcance:** Nacional y regional (empresas con operaciones locales o multilatinas).
+* **Aspectos Psicográficos:**
+  * **Intereses:** Transformación digital, IA generativa aplicada a negocios, ciberseguridad, automatización de procesos y gobernanza de datos.
+  * **Estilo de vida:** Ejecutivo, altamente estructurado, orientado al cumplimiento de métricas, con alta carga de reuniones estratégicas y constante actualización tecnológica.
+  * **Actitudes:** Innovador pero cauteloso con la seguridad de la información; adverso a respuestas "alucinadas" de chats genéricos; enfocado en el retorno de inversión (ROI) y en la mejora de indicadores clave (KPIs como MTTR y SLA).
+
+#### Sustento Estadístico:
+* **Tamaño del Mercado Empresarial:** Según la información del Instituto Nacional de Estadística e Informática (INEI, 2025), la dinamización del tejido empresarial en el Perú registra un flujo constante con la creación de más de 101 000 unidades económicas por trimestre. Dentro de este ecosistema formal, el segmento de medianas y grandes empresas representa entre el 0.6% y 1.0% del total nacional, constituyendo un universo objetivo directo de más de 15 000 a 20 000 organizaciones formalmente consolidadas en Lima y principales regiones que operan con gerencias estructuradas de TI.
+* **Alta Adopción e Inversión en Inteligencia Artificial:** Un informe técnico de la firma consultora EY Perú (2026) señala que el 90% de las empresas en el país ya se encuentra adoptando o evaluando herramientas de Inteligencia Artificial en sus flujos operativos. Sin embargo, el mismo estudio destaca que el 90% aún carece de políticas de gobernanza formalmente aprobadas y el 66% no cuenta con especialistas en la materia dentro de sus directorios. Esta brecha de gobernanza evidencia la necesidad de que las organizaciones adopten soluciones de IA que contemplen mecanismos de precisión, trazabilidad y seguridad de los datos. En este contexto, TraceHelp propone utilizar una arquitectura RAG sobre una base de conocimiento privada.
+* **Desafíos Operativos y de Confianza en la IA:** Investigaciones adicionales de la firma EY Perú (2025) señalan que el 82% de las personas y ejecutivos emplean herramientas de IA para optimizar la productividad laboral; no obstante, existe un entorno donde la confianza completa en respuestas automatizadas genéricas sigue siendo un reto, lo que fundamenta la necesidad de motores de diagnóstico que eviten "alucinaciones" mediante documentación interna.
+
+---
+
+### Segmento 2: Analistas y Especialistas de Soporte de TI (Operadores de Helpdesk Nivel 1 y 2)
+Representa a los usuarios operativos de la plataforma, encargados de gestionar, validar y resolver incidentes asistidos por el copiloto, con el objetivo de reducir la carga asociada a tareas repetitivas.
+
+Este segmento representa el **User Persona** (Usuario Final Operativo), cuya adopción diaria determinará el éxito de la interfaz y la efectividad del diagnóstico multimodal mediante capturas de pantalla y texto.
+
+* **Aspectos Demográficos:**
+  * **Sexo:** Masculino y femenino.
+  * **Edad:** 22 a 38 años.
+  * **Nivel socioeconómico:** A, B y C+.
+* **Aspectos Geográficos:**
+  * **Ubicación:** Principales centros urbanos del Perú (modalidad presencial, híbrida o trabajo remoto).
+  * **Alcance:** Local y Nacional (equipos centrales de TI que dan soporte a múltiples sedes).
+* **Aspectos Psicográficos:**
+  * **Intereses:** Tecnología, software, herramientas Low-Code/No-Code, resolución de problemas lógicos, videojuegos y tendencias informáticas.
+  * **Estilo de vida:** Dinámico, pragmático, expuesto a entornos de alto estrés y alta demanda por ticket en cola (backlog).
+  * **Actitudes:** Frustrado ante la falta de detalle en reportes de usuarios y consultas repetitivas de Nivel 1; receptivo a la adopción de herramientas de IA que faciliten su rutina y aceleren sus tiempos de respuesta.
+
+#### Sustento Estadístico:
+* **Volumen del Talento Tecnológico:** Informes del sector tecnológico elaborados por Experis y ManpowerGroup Perú (s. f.) estiman que la brecha y demanda acumulada de profesionales de Tecnología de la Información (TI) en el país alcanza una proyección de 80,000 especialistas, abarcando puestos de soporte informático, infraestructura, desarrollo y ciberseguridad.
+* **Crecimiento del Empleo Formal en Servicios:** Reportes oficiales del INEI (2026) destacan que la población ocupada a nivel nacional creció un 1.5% anual, impulsada principalmente por el dinamismo en empresas de mediano y gran tamaño (las organizaciones de más de 50 trabajadores incrementaron su personal formal en 4.5%). Este crecimiento demanda una mayor infraestructura de soporte técnico para atender las solicitudes operativas diarias de miles de colaboradores.
+* **Dificultad de Cobertura de Perfiles de Soporte:** De acuerdo con la encuesta de Escasez de Talento de ManpowerGroup Perú (2025), el 70% de los empleadores en el Perú declara tener dificultades para cubrir posiciones técnicas clave. Esta escasez operativa sobrecarga a las mesas de ayuda existentes, haciendo necesario incorporar copilotos inteligentes que automaticen y agilicen la gestión de los tickets de Nivel 1.
+
+
 
