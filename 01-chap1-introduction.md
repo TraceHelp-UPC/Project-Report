@@ -109,3 +109,84 @@ En conjunto, los datos presentados evidencian que la automatización del soporte
 
 Por tanto, TraceHelp presenta una oportunidad de mejora sustentada en la combinación de automatización AIOps, recuperación de conocimiento mediante RAG y supervisión humana. Su potencial no se limita a reducir los costos asociados a tickets de baja complejidad, sino que también permite optimizar la asignación de recursos humanos hacia incidentes que requieren mayor criterio técnico. En este sentido, la solución puede contribuir a mejorar la eficiencia operativa y la experiencia de los usuarios, al tiempo que reduce la carga asociada a tareas repetitivas en las mesas de ayuda.
 
+---
+
+### 1.2.2. Lean UX Process
+
+#### Lean UX Problem Statements
+En el ámbito de la gestión de servicios de TI en organizaciones corporativas, existe una problemática asociada a la sobrecarga de las mesas de ayuda, causada por el elevado volumen de solicitudes, las tareas repetitivas y la dependencia de procesos manuales para el triaje de incidentes. Los trabajadores interactúan con el soporte de TI un promedio de tres veces al mes, mientras que solo el 46 % de las organizaciones cuenta con automatización para la gestión de tickets. Esta situación dificulta una atención eficiente, incrementa los tiempos de resolución y limita la capacidad de los analistas para concentrarse en problemas de mayor complejidad. Además, aproximadamente el 22 % de los tickets corresponde a situaciones en las que los colaboradores no pueden continuar realizando su trabajo hasta que el problema sea resuelto.
+
+La oportunidad para Silph Technologies radica en ofrecer **TraceHelp** como un copiloto inteligente que automatice parte del triaje y facilite el acceso a información contextualizada mediante AIOps y RAG. Nuestra visión es transformar la atención de soporte hacia un modelo más eficiente, donde la inteligencia artificial reduzca la carga operativa de los analistas y facilite la resolución de incidentes, manteniendo la supervisión humana.
+
+* **Pregunta generadora:** ¿Cómo podemos mejorar la eficiencia del soporte corporativo mediante la automatización inteligente del triaje, sin comprometer la precisión y confiabilidad de la atención? El objetivo es diseñar una solución escalable que reduzca las tareas repetitivas y proporcione a los analistas información contextualizada para agilizar la resolución de incidentes.
+
+#### Lean UX Assumptions
+
+##### 1. Business Outcomes
+* **Eficiencia Operativa:** Reducir la carga de trabajo manual del soporte, frente a una realidad donde solo el 46 % de las organizaciones automatiza la gestión de tickets y el 95 % de los profesionales considera estas automatizaciones necesarias.
+* **Optimización del Soporte:** Mejorar los tiempos de atención y resolución en un contexto donde el 74 % de los profesionales reporta un MTTR superior a una hora.
+* **Mayor Resolución y Autoservicio:** Incrementar la capacidad de resolución de solicitudes mediante automatización y autoservicio, tomando como referencias hasta 83,8 % de resolución en primer contacto y 53 % de deflexión mediante autoservicio con IA.
+* **Definition of Done:** TraceHelp recibe un incidente, analiza su información, recupera conocimiento relevante, propone el triaje y permite al analista validar el resultado.
+
+##### 2. Users
+* **Analistas de soporte L1:** Usuarios principales, responsables de recibir, clasificar, diagnosticar y atender inicialmente los tickets.
+* **Colaboradores no técnicos:** Usuarios finales que reportan incidentes y necesitan resolverlos con la menor interrupción posible.
+* **Responsables de TI:** Gestores que supervisan el rendimiento, eficiencia y capacidad de las mesas de ayuda.
+* **Organizaciones medianas y grandes:** Segmento inicial con un volumen significativo de solicitudes de soporte.
+
+##### 3. User Outcomes & Benefits
+* **Ahorro de Tiempo y Esfuerzo:** Reducción de tareas manuales y repetitivas durante la gestión de tickets.
+* **Información Contextualizada:** Acceso rápido a documentación y antecedentes relevantes para comprender cada incidente.
+* **Mayor Capacidad de Resolución:** Facilitar al analista L1 la atención de incidentes sin depender constantemente de niveles especializados.
+* **Mejor Experiencia del Usuario:** Reducir los tiempos de espera y las interrupciones que afectan al colaborador durante un incidente.
+* **Confianza:** Recomendaciones transparentes y verificables mediante supervisión humana.
+
+##### 4. Solutions / Features
+* **Triaje Inteligente de Tickets:** Clasificación y priorización automática de incidentes según su tipo, urgencia y contexto.
+* **Análisis Multimodal:** Procesamiento de texto e imágenes proporcionadas por el usuario para obtener mayor contexto sobre el incidente.
+* **Recuperación de Conocimiento mediante RAG:** Consulta de documentación, procedimientos y conocimiento interno para fundamentar las recomendaciones generadas.
+* **Asistencia al Analista L1:** Generación de posibles diagnósticos, soluciones y próximos pasos para facilitar la atención de incidentes.
+* **Automatización y Enrutamiento:** Ejecución de flujos automatizados y derivación de tickets al nivel o equipo correspondiente.
+* **Supervisión Humana:** Validación de las recomendaciones de la IA por parte del analista antes de ejecutar acciones relevantes.
+
+##### 5. Análisis de Assumptions
+1. Creo que mis usuarios desean una solución que reduzca la carga de trabajo repetitiva del soporte L1 sin eliminar la supervisión humana.
+2. Esto se puede resolver mediante TraceHelp gracias a su triaje inteligente, recuperación de conocimiento mediante RAG, análisis multimodal y automatización de flujos de soporte.
+3. Mis usuarios iniciales son analistas de soporte L1 y colaboradores no técnicos de organizaciones medianas y grandes con un volumen significativo de solicitudes de TI.
+4. El valor #1 que un usuario quiere de TraceHelp es reducir el tiempo necesario para comprender, clasificar y atender un incidente.
+5. El usuario también puede obtener el beneficio adicional de acceder a conocimiento contextualizado y recomendaciones basadas en la información disponible de su organización.
+6. Voy a adquirir la mayoría de mis usuarios mediante pilotos con organizaciones que cuenten con mesas de ayuda internas, demostraciones del sistema y alianzas con áreas de TI interesadas en automatizar sus procesos de soporte.
+7. Haré dinero a través de un modelo SaaS empresarial basado en el volumen de tickets procesados, número de usuarios o funcionalidades contratadas, complementado con servicios de implementación e integración.
+8. Mi competencia principal son las plataformas tradicionales de ITSM y las soluciones de automatización y copilotos de IA que ofrecen funcionalidades de gestión, clasificación y resolución de tickets.
+9. Nos diferenciaremos ofreciendo una solución especializada en el triaje inteligente que combine AIOps, RAG y capacidades multimodales, proporcionando contexto relevante al analista y manteniendo la supervisión humana en el proceso.
+10. Mi mayor riesgo de producto es que la información recuperada sea insuficiente o incorrecta, que las recomendaciones de la IA no sean confiables o que las integraciones con los sistemas existentes dificulten su adopción.
+11. Resolveremos esto mediante una arquitectura RAG basada en fuentes empresariales confiables, mecanismos de validación humana, trazabilidad de las recomendaciones e integraciones progresivas con las herramientas existentes de la organización.
+
+##### 6. Preguntas Finales
+* **¿Quién es el usuario?** El analista de soporte L1 que gestiona incidentes y solicitudes diariamente, junto con los colaboradores no técnicos que requieren asistencia de TI.
+* **¿Dónde encaja nuestro producto, en su trabajo o en su vida?** Encaja directamente en el trabajo diario de las mesas de ayuda y en la experiencia del colaborador cuando necesita resolver un incidente tecnológico.
+* **¿Qué problemas tiene nuestro producto y cómo se puede resolver?** La dependencia de la calidad del conocimiento empresarial y de las integraciones con los sistemas existentes. Se resuelve mediante RAG sobre fuentes confiables, validación humana e integración progresiva con las herramientas de ITSM.
+* **¿Cuándo y cómo es usado nuestro producto?** Se utiliza cuando un colaborador reporta un incidente o solicitud y cuando el analista L1 necesita clasificar, diagnosticar, resolver o derivar el ticket.
+* **¿Qué características son importantes?** La precisión del triaje, la relevancia del conocimiento recuperado, la capacidad de analizar información multimodal, la facilidad de uso y la integración con las herramientas existentes.
+* **¿Cómo debe verse nuestro producto y cómo comportarse?** Debe verse profesional, claro y orientado al entorno corporativo. La interfaz debe presentar la información de manera estructurada y comprensible, mostrando el contexto y las recomendaciones de la IA de forma transparente, mientras el sistema se comporta de manera ágil y consistente.
+
+#### Lean UX Hypothesis Statements
+
+* **Hypothesis Statement 1: Eficiencia Operativa y Reducción de Carga L1**  
+  *Creemos que*, al automatizar el triaje, categorización y recopilación inicial de información de los tickets para los analistas de soporte L1, *lograremos* reducir el tiempo dedicado a tareas repetitivas y permitir que los analistas se concentren en incidentes de mayor complejidad. *Sabremos que esto es cierto cuando* veamos una reducción de al menos 30% en el tiempo promedio dedicado al triaje de los tickets durante el periodo de validación.
+
+* **Hypothesis Statement 2: Precisión y Utilidad del Soporte mediante IA**  
+  *Creemos que*, al combinar triaje inteligente, análisis multimodal y recuperación de conocimiento mediante RAG para los analistas L1, *lograremos* proporcionar recomendaciones más contextualizadas y útiles para el diagnóstico y resolución de incidentes. *Sabremos que esto es cierto cuando* al menos el 85% de las recomendaciones generadas por TraceHelp sean consideradas relevantes y útiles por los analistas durante el periodo de validación.
+
+* **Hypothesis Statement 3: Adopción y Confianza del Analista**  
+  *Creemos que*, al mantener la supervisión humana y presentar de forma transparente el contexto y las fuentes utilizadas por TraceHelp, *lograremos* que los analistas L1 confíen en la herramienta como apoyo habitual para la gestión de tickets. *Sabremos que esto es cierto cuando* al menos el 70% de los analistas participantes utilice TraceHelp de manera recurrente durante el periodo de prueba y valide positivamente su utilidad para la atención de incidentes.
+
+#### Lean UX Canvas
+
+<p align="center">
+  <img src="assets/images/lean_ux_canvas.png" alt="Lean UX Canvas de TraceHelp" width="850"/>
+</p>
+
+*Figura 1.* Lean UX Canvas de TraceHelp desarrollado por Silph Technologies. Referencia en línea: [Google Docs - Lean UX Canvas](https://docs.google.com/document/d/1AehXzps9-Qiyk5w-4XLalrF8TTc83NRz/edit?usp=sharing).
+
+
