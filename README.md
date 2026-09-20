@@ -19,7 +19,8 @@ Nombre del Producto: **TraceHelp**
 
 </div>
 
-**Integrantes:**
+<div align="center">
+<b>Integrantes:</b>
 
 | Apellidos y Nombres | Código |
 | :--- | :--- |
@@ -27,6 +28,7 @@ Nombre del Producto: **TraceHelp**
 | Chávez Uribe, Ario Joel | u202213468 |
 | Binda Arbañil, Marcelo Alejandro | u202311157 |
 | Martel Andrade, Cassius Estefano | u202312287 |
+</div>
 
 <div align="center">
 
