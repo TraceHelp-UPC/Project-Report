@@ -9,3 +9,8 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Archivos generados automáticamente (NO commitear)
+Informe_Completo_TB1_TraceHelp.md
+Informe_Completo_TB1_TraceHelp.html
+Informe_Completo_TB1_TraceHelp.pdf
