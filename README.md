@@ -1,3 +1,4 @@
+
 <div align="center">
 
 ![UPC Logo](assets/images/upc_logo_caratula.png)
@@ -48,9 +49,46 @@ Nombre del Producto: **TraceHelp**
 
 ## Project Report Collaboration Insights
 
-El presente informe ha sido desarrollado colaborativamente mediante un flujo estructurado de control de versiones en GitHub:
-* **Repositorio Oficial:** [https://github.com/TraceHelp-UPC/Project-Report](https://github.com/TraceHelp-UPC/Project-Report)
-* **Gestión de Cambios:** Cada capítulo y sección del documento técnico fue versionado y revisado de forma iterativa, asegurando trazabilidad formal, gobernanza del contenido y apego a las convenciones de ingeniería de software.
+Para el desarrollo del **Project Report**, el equipo utiliza un repositorio dentro de la organización en GitHub. A continuación, se presenta la evidencia de colaboración correspondiente y en coherencia con el registro de versiones del informe.
+
+**Repositorio del informe del proyecto:** [https://github.com/TraceHelp-UPC/Project-Report](https://github.com/TraceHelp-UPC/Project-Report)
+
+**Autores contribuyentes:**
+
+| Integrante | Usuario de GitHub |
+| :--- | :--- |
+| Borja Molina, Gabriel Sebastián | `GabrielB2023` |
+| Chávez Uribe, Ario Joel | `feg06` |
+| Binda Arbañil, Marcelo Alejandro | `MarceloBinda` |
+| Martel Andrade, Cassius Estefano | `CassiusMartel` |
+
+El equipo adoptó una estrategia de ramas basada en **feature branches** (`feature/<sección>`), donde cada integrante trabajó de forma aislada sobre la sección asignada y luego integró sus cambios a `main` mediante *pull requests* con revisión cruzada. Los mensajes de commit siguen la convención **Conventional Commits**, usando prefijos como `feat:`, `fix:` y `chore:` para mantener un historial claro y trazable.
+
+## TB1 – Stage Review – Semana 7
+
+Durante esta fase, el equipo se enfocó en la especificación del sistema, elicitación de requerimientos, diseño estratégico de software y elaboración del informe completo. Los entregables principales abarcaron:
+
+- **Capítulo I:** Descripción de la startup Silph Technologies, perfiles del equipo, solución TraceHelp, Lean UX Process y segmentos objetivo.
+- **Capítulo II:** Análisis competitivo, entrevistas con Líderes de TI y Analistas L1, needfinding, User Personas, Task Matrix, Empathy Maps y As-Is Scenario Mapping.
+- **Capítulo III:** To-Be Scenario Mapping, User Stories, Technical Stories, Impact Mapping y Product Backlog priorizado.
+- **Capítulo IV:** Proceso ADD (Design Purpose, Quality Attribute Scenarios, Constraints), Architectural Drivers Backlog, decisiones de diseño, EventStorming, DDD (Bounded Contexts, Context Mapping) y diagramas de arquitectura de software.
+- **Actualizaciones transversales:** Conclusiones, bibliografía y registro de versiones del informe.
+
+Los commits reflejaron este trabajo colaborativo siguiendo la convención establecida:
+
+```text
+feat: add startup profile and solution description with lean ux process
+feat: add competitive analysis, interview records and user personas
+feat: add user stories, technical stories and prioritized product backlog
+feat: add ADD process, quality attribute scenarios and bounded context canvases
+chore: exclude generated artifacts and add UPC cover logo
+```
+
+**Analíticos de colaboración – GitHub Insights:**
+
+<img src="assets/images/readme/collaboration_insights_tb1.png" alt="Contributors-TB1" width="100%" style="max-width: 100%; height: auto;">
+
+Figura: Contribuciones por integrante durante el TB1
 
 ---
 
