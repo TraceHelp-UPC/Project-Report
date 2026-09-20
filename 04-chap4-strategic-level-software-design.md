@@ -51,13 +51,75 @@ Los escenarios de atributos de calidad caracterizan las metas no funcionales del
 
 A continuación, se detalla el cuadro donde cada escenario especifica el origen del estímulo, la condición desencadenante, el artefacto afectado, el entorno operativo, la respuesta esperada y su respectiva métrica de medición:
 
-| Atributo | Fuente | Estímulo | Artefacto | Entorno | Respuesta | Medida |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Performance (Rendimiento)** | Analista L1 / Colaborador no técnico | Envío de una consulta de soporte compuesta por texto y captura de pantalla de error (solicitud multimodal). | Servicio Backend de Triaje Multimodal (POST /api/v1/triage/analyze) | Carga habitual de trabajo con 100 solicitudes concurrentes en hora pico. | El sistema procesa la imagen mediante visión artificial (OCR), ejecuta la búsqueda vectorial en el workspace y genera el diagnóstico citado. | Tiempo total de respuesta T <= 3.5 segundos para el percentil 95. |
-| **Availability (Disponibilidad)** | Infraestructura Cloud / Red | Falla imprevista o caída de un nodo activo en el microservicio de triaje. | Cluster de Microservicios Backend / Load Balancer | Operación continua 24/7 en producción. | El balanceador de carga redirige el tráfico de forma transparente hacia los nodos secundarios (failover automático) y registra el evento de infraestructura. | Tiempo de recuperación de servicio Tdown <= 15 segundos sin pérdida de peticiones en tránsito (Disponibilidad >= 99%). |
-| **Security (Seguridad / Privacidad)** | Colaborador no técnico | Envío de un ticket de soporte que contiene credenciales explícitas, tokens o datos personales (PII) en la captura o texto. | API Gateway / Módulo de Anonimización y Seguridad PII | Operación normal antes de enviar el prompt al motor de IA externo. | El módulo de seguridad intercepta la petición, identifica patrones PII mediante Regex y NER, y sustituye los datos por etiquetas neutras anonimizadas. | 100% de datos sensibles (PII) anonimizados antes de que la consulta salga del perímetro de red del backend. |
-| **Reliability / Accuracy (Fiabilidad RAG)** | Motor de Búsqueda Vectorial | Recepción de una consulta sobre una falla técnica que no existe en los manuales del workspace corporativo. | Engine de Inferencia RAG | Operación regular en producción. | El sistema evalúa el score de similitud vectorial y, al resultar inferior al umbral ($score < 0.70$), rehúsa responder especulativamente y notifica falta de evidencia. | 0\% de respuestas alucinadas o no fundamentadas en la documentación cargada. |
-| **Scalability (Escalabilidad)** | Líder Estratégico de TI | Carga masiva en paralelo de 50 manuales técnicos corporativos en formato PDF. | Servicio de Ingesta y Vectorización Asíncrona | Procesamiento en segundo plano (Background Job). | El sistema encola los archivos, distribuye el procesamiento de chunks mediante colas de mensajes y actualiza la base vectorial dinámicamente. | Ingesta completa y actualización del índice vectorial en T <= 120 segundos sin degradar las consultas activas. |
+<table style="width:100%;border-collapse:collapse;font-size:6.2pt;table-layout:fixed;word-break:break-word;">
+  <colgroup>
+    <col style="width:11%;">
+    <col style="width:9%;">
+    <col style="width:16%;">
+    <col style="width:14%;">
+    <col style="width:12%;">
+    <col style="width:24%;">
+    <col style="width:14%;">
+  </colgroup>
+  <thead>
+    <tr style="background:#eaf0f6;">
+      <th style="border:1px solid #b0b8c1;padding:3px 4px;text-align:left;">Atributo</th>
+      <th style="border:1px solid #b0b8c1;padding:3px 4px;text-align:left;">Fuente</th>
+      <th style="border:1px solid #b0b8c1;padding:3px 4px;text-align:left;">Estímulo</th>
+      <th style="border:1px solid #b0b8c1;padding:3px 4px;text-align:left;">Artefacto</th>
+      <th style="border:1px solid #b0b8c1;padding:3px 4px;text-align:left;">Entorno</th>
+      <th style="border:1px solid #b0b8c1;padding:3px 4px;text-align:left;">Respuesta</th>
+      <th style="border:1px solid #b0b8c1;padding:3px 4px;text-align:left;">Medida</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;"><strong>Performance (Rendimiento)</strong></td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">Analista L1 / Colaborador no técnico</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">Envío de una consulta de soporte compuesta por texto y captura de pantalla de error (solicitud multimodal).</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">Servicio Backend de Triaje Multimodal (POST /api/v1/triage/analyze)</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">Carga habitual con 100 solicitudes concurrentes en hora pico.</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">El sistema procesa la imagen mediante visión artificial (OCR), ejecuta la búsqueda vectorial en el workspace y genera el diagnóstico citado.</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">Tiempo total de respuesta T &lt;= 3.5 s para el percentil 95.</td>
+    </tr>
+    <tr style="background:#fafbfc;">
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;"><strong>Availability (Disponibilidad)</strong></td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">Infraestructura Cloud / Red</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">Falla imprevista o caída de un nodo activo en el microservicio de triaje.</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">Cluster de Microservicios Backend / Load Balancer</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">Operación continua 24/7 en producción.</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">El balanceador redirige el tráfico hacia nodos secundarios (failover automático) y registra el evento de infraestructura.</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">Tdown &lt;= 15 s sin pérdida de peticiones en tránsito (Disponibilidad &gt;= 99%).</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;"><strong>Security (Seguridad / Privacidad)</strong></td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">Colaborador no técnico</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">Envío de un ticket que contiene credenciales, tokens o datos personales (PII) en la captura o texto.</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">API Gateway / Módulo de Anonimización PII</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">Operación normal antes de enviar el prompt al motor de IA externo.</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">El módulo intercepta la petición, identifica patrones PII mediante Regex y NER, y sustituye los datos por etiquetas anonimizadas.</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">100% de PII anonimizados antes de salir del perímetro de red del backend.</td>
+    </tr>
+    <tr style="background:#fafbfc;">
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;"><strong>Reliability / Accuracy (Fiabilidad RAG)</strong></td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">Motor de Búsqueda Vectorial</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">Consulta sobre una falla técnica que no existe en los manuales del workspace corporativo.</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">Engine de Inferencia RAG</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">Operación regular en producción.</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">El sistema evalúa el score de similitud vectorial y, si score &lt; 0.70, rehúsa responder especulativamente y notifica falta de evidencia.</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">0% de respuestas alucinadas o no fundamentadas en la documentación cargada.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;"><strong>Scalability (Escalabilidad)</strong></td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">Líder Estratégico de TI</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">Carga masiva en paralelo de 50 manuales técnicos corporativos en formato PDF.</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">Servicio de Ingesta y Vectorización Asíncrona</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">Procesamiento en segundo plano (Background Job).</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">El sistema encola los archivos, distribuye el procesamiento de chunks mediante colas de mensajes y actualiza la base vectorial dinámicamente.</td>
+      <td style="border:1px solid #c8cfd6;padding:3px 4px;vertical-align:top;">Ingesta completa y actualización del índice vectorial en T &lt;= 120 s sin degradar consultas activas.</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 4.1.2.3. Constraints
 

@@ -1,33 +1,38 @@
-![UPC Logo](assets/images/upc_logo.png)
+<div align="center">
 
-# Universidad Peruana de Ciencias Aplicadas
-## Facultad de Ingeniería
-### Carrera de Ingeniería de Software
+![UPC Logo](assets/images/upc_logo_caratula.png)
 
----
+Universidad Peruana de Ciencias Aplicadas
 
-### **1ASI0728 - Arquitecturas de Software Emergentes**
-* **Ciclo:** 2026-20
-* **NRC:** 9046
-* **Profesor:** Royer Edelwer Rojas Malásquez
+Ingeniería de Software
 
----
+**1ASI0728 Arquitecturas de Software Emergentes**
+**202520**
 
-# Informe del Trabajo Final (TB1)
+NRC: **9046**
 
-## **Startup:** Silph Technologies
-## **Nombre del Producto:** TraceHelp
+Profesor: **Royer Edelwer Rojas Malásquez**
 
-### **Integrantes del Equipo:**
+**Informe del Trabajo Final (TB1)**
 
-| Nombres y Apellidos | Código de Alumno |
+Nombre del Producto: **TraceHelp**
+
+</div>
+
+**Integrantes:**
+
+| Apellidos y Nombres | Código |
 | :--- | :--- |
-| **Gabriel Sebastián Borja Molina** | u202310308 |
-| **Cassius Estefano Martel Andrade** | u202312287 |
-| **Ario Joel Chavez Uribe** | u202213468 |
-| **Marcelo Alejandro Binda Arbañil** | u202311157 |
+| Borja Molina, Gabriel Sebastián | u202310308 |
+| Chávez Uribe, Ario Joel | u202213468 |
+| Binda Arbañil, Marcelo Alejandro | u202311157 |
+| Martel Andrade, Cassius Estefano | u202312287 |
+
+<div align="center">
 
 **Septiembre de 2026**
+
+</div>
 
 ---
 
